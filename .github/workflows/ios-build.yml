@@ -13,49 +13,56 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Cache Unity
-        uses: actions/cache@v4
-        with:
-          path: /Users/runner/Unity
-          key: Unity-6000.5.0f1
-
       - name: Install Unity 6000.5.0f1
         run: |
-          if [ ! -d "/Users/runner/Unity/Unity.app" ]; then
-            mkdir -p /Users/runner/Unity
-            curl -o /tmp/Unity.pkg \
-              "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorInstaller/Unity-6000.5.0f1.pkg"
-            sudo installer -pkg /tmp/Unity.pkg -target /
-            cp -R /Applications/Unity /Users/runner/Unity/
-          fi
-          sudo ln -sf /Users/runner/Unity/Unity.app /Applications/Unity/Unity.app
+          curl -o /tmp/Unity.pkg \
+            "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorInstaller/Unity-6000.5.0f1.pkg"
+          sudo installer -pkg /tmp/Unity.pkg -target /
+          curl -o /tmp/Unity-iOS.pkg \
+            "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorTargetInstaller/UnitySetup-iOS-Support-for-Editor-6000.5.0f1.pkg"
+          sudo installer -pkg /tmp/Unity-iOS.pkg -target /
+
+      - name: Find Unity executable
+        id: unity-path
+        run: |
+          UNITY_PATH=$(find /Applications/Unity -name "Unity" -path "*/MacOS/Unity" 2>/dev/null | head -1)
+          echo "Found Unity at: $UNITY_PATH"
+          echo "path=$UNITY_PATH" >> $GITHUB_OUTPUT
 
       - name: Activate Unity Personal License
         run: |
-          /Applications/Unity/Unity.app/Contents/MacOS/Unity \
-            -batchmode -quit \
+          UNITY="${{ steps.unity-path.outputs.path }}"
+          "$UNITY" -batchmode -quit \
             -username "${{ secrets.UNITY_EMAIL }}" \
             -password "${{ secrets.UNITY_PASSWORD }}" \
             -logFile /tmp/unity-license.log 2>&1 || true
-          ls -la /Applications/Unity/Unity.app/Contents/Resources/*.ulf 2>/dev/null || echo "No .ulf found yet"
           cat /tmp/unity-license.log
 
       - name: Build iOS Xcode project
         run: |
-          /Applications/Unity/Unity.app/Contents/MacOS/Unity \
-            -batchmode -quit \
+          UNITY="${{ steps.unity-path.outputs.path }}"
+          BUILD_PATH="${{ runner.temp }}/Unity-iOS-Build"
+          mkdir -p "$BUILD_PATH"
+          "$UNITY" -batchmode -quit \
             -projectPath "${{ github.workspace }}" \
             -buildTarget iOS \
-            -outputPath "${{ runner.temp }}/Unity-iOS-Build" \
+            -outputPath "$BUILD_PATH" \
             -logFile /tmp/unity-build.log 2>&1 || true
           cat /tmp/unity-build.log
-          ls -la "${{ runner.temp }}/Unity-iOS-Build/" 2>/dev/null
+          echo "--- Build output directory ---"
+          ls -la "$BUILD_PATH/" 2>/dev/null || echo "Build output empty"
 
       - name: Build unsigned .app
-        if: hashFiles('${{ runner.temp }}/Unity-iOS-Build/Unity-iPhone.xcodeproj') != ''
         run: |
+          XCODE_PROJECT=$(find "${{ runner.temp }}/Unity-iOS-Build" -name "*.xcodeproj" -maxdepth 2 2>/dev/null | head -1)
+          if [ -z "$XCODE_PROJECT" ]; then
+            echo "No Xcode project found in build output"
+            find "${{ runner.temp }}" -name "*.xcodeproj" -maxdepth 5 2>/dev/null
+            exit 1
+          fi
+          echo "Building: $XCODE_PROJECT"
           xcodebuild build \
-            -project "${{ runner.temp }}/Unity-iOS-Build/Unity-iPhone.xcodeproj" \
+            -project "$XCODE_PROJECT" \
             -scheme Unity-iPhone \
             -configuration Release \
             -derivedDataPath ${{ runner.temp }}/DerivedData \
@@ -64,7 +71,6 @@ jobs:
             PRODUCT_BUNDLE_IDENTIFIER=${{ vars.BUNDLE_ID || 'com.brucepeters.arkitdemo' }}
 
       - name: Package .app into .ipa
-        if: success()
         run: |
           APP_PATH="${{ runner.temp }}/DerivedData/Build/Products/Release-iphoneos/Unity-iPhone.app"
           if [ -d "$APP_PATH" ]; then
@@ -73,13 +79,14 @@ jobs:
             cp -R "$APP_PATH" "$PAYLOAD_PATH/"
             cd "${{ runner.temp }}"
             zip -r ${{ runner.tool_cache }}/MyApp.ipa Payload/
+            echo "IPA created successfully"
           else
             echo "No .app found at $APP_PATH"
             find "${{ runner.temp }}/DerivedData" -name "*.app" -maxdepth 5 2>/dev/null
+            exit 1
           fi
 
       - name: Upload .ipa
-        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: MyApp-iOS
