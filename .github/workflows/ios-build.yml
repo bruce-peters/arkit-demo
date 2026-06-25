@@ -18,6 +18,15 @@ jobs:
         with:
           dotnet-version: '9.0.x'
 
+      - name: Fix IL2CPP .NET assemblies for macOS
+        run: |
+          DOTNET_DIR=$(dirname $(dirname $(readlink $(which dotnet))))
+          RUNTIME_DIR="$DOTNET_DIR/shared/Microsoft.NETCore.App"
+            LATEST=$(ls -1 "$RUNTIME_DIR" | sort -V | tail -1)
+            echo "Using .NET runtime: $LATEST at $RUNTIME_DIR/$LATEST"
+            cp "$RUNTIME_DIR/$LATEST/System.Private.CoreLib.dll" \
+              ios_build/Il2CppOutputProject/IL2CPP/build/deploy_arm64/System.Private.CoreLib.dll
+
       - name: Build unsigned .app
         run: |
           xcodebuild build \
