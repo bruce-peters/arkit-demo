@@ -15,7 +15,11 @@ jobs:
 
       - name: Compile IL2CPP output to libGameAssembly.a
         run: |
-          sudo xcode-select -s /Applications/Xcode_16.4.app
+          XCODE=$(find /Applications -maxdepth 1 -name "Xcode*.app" | head -1)
+          sudo xcode-select -s "$XCODE"
+          SDK=$(find "$XCODE" -path "*/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk" -maxdepth 8 | head -1)
+          echo "Xcode: $XCODE"
+          echo "SDK: $SDK"
           SRC="ios_build/Il2CppOutputProject/Source/il2cppOutput"
           LIBSRC="ios_build/Il2CppOutputProject/IL2CPP/libil2cpp"
           OBJ_DIR="${{ runner.temp }}/il2cpp-objs"
