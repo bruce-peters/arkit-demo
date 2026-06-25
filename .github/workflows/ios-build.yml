@@ -13,42 +13,28 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build and sign .ipa
+      - name: Build unsigned .app
         run: |
-          xcodebuild -project ios_build/Unity-iPhone.xcodeproj \
+          xcodebuild build \
+            -project ios_build/Unity-iPhone.xcodeproj \
             -scheme Unity-iPhone \
             -configuration Release \
-            -archivePath ${{ runner.temp }}/MyApp.xcarchive \
-            -allowProvisioningUpdates \
-            DEVELOPMENT_TEAM=${{ secrets.APPLE_TEAM_ID }} \
-            PRODUCT_BUNDLE_IDENTIFIER=${{ vars.BUNDLE_ID || 'com.brucepeters.arkitdemo' }} \
-            CODE_SIGN_STYLE=Automatic \
-            archive
-          mkdir -p ExportPlist
-          cat > ExportPlist/ExportOptions.plist << EOF
-          <?xml version="1.0" encoding="UTF-8"?>
-          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-          <plist version="1.0">
-          <dict>
-            <key>method</key>
-            <string>development</string>
-            <key>signingStyle</key>
-            <string>automatic</string>
-          </dict>
-          </plist>
-          EOF
-          xcodebuild -exportArchive \
-            -archivePath ${{ runner.temp }}/MyApp.xcarchive \
-            -exportPath ${{ runner.tool_cache }}/MyApp.ipa \
-            -exportOptionsPlist ExportPlist/ExportOptions.plist \
-            -allowProvisioningUpdates
+            -derivedDataPath ${{ runner.temp }}/DerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGN_IDENTITY="" \
+            PRODUCT_BUNDLE_IDENTIFIER=${{ vars.BUNDLE_ID || 'com.brucepeters.arkitdemo' }}
+
+      - name: Package .app into .ipa
+        run: |
+          APP_PATH="${{ runner.temp }}/DerivedData/Build/Products/Release-iphoneos/Unity-iPhone.app"
+          PAYLOAD_PATH="${{ runner.temp }}/Payload"
+          mkdir -p "$PAYLOAD_PATH"
+          cp -R "$APP_PATH" "$PAYLOAD_PATH/"
+          cd "${{ runner.temp }}"
+          zip -r ${{ runner.tool_cache }}/MyApp.ipa Payload/
 
       - name: Upload .ipa
         uses: actions/upload-artifact@v4
         with:
           name: MyApp-iOS
           path: ${{ runner.tool_cache }}/MyApp.ipa
-
-env:
-  APPLE_ID: ${{ secrets.APPLE_ID }}
-  APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
