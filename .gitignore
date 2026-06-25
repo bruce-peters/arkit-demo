@@ -63,6 +63,11 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+# Don't ignore the pre-built iOS Xcode project
+!/ios_build/
+/ios_build/**/*.a
+/ios_build/**/*.bc
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta

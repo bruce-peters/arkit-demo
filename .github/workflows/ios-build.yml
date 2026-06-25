@@ -13,27 +13,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Cache Library
-        uses: actions/cache@v4
-        with:
-          path: Library
-          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
-
-      - name: Setup Unity
-        uses: game-ci/unity-builder@v4
-        with:
-          unityVersion: 6000.5.0f1
-          targetPlatform: iOS
-
-      - name: Enable automatic signing in Xcode project
-        run: |
-          plist_path="build/iOS/Unity-iPhone/Info.plist"
-          /usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier com.brucepeters.arkitdemo" "$plist_path" 2>/dev/null || true
-
       - name: Build and sign .ipa
         run: |
-          cd build/iOS
-          xcodebuild -project Unity-iPhone.xcodeproj \
+          xcodebuild -project ios_build/Unity-iPhone.xcodeproj \
             -scheme Unity-iPhone \
             -configuration Release \
             -archivePath ${{ runner.temp }}/MyApp.xcarchive \
@@ -66,8 +48,5 @@ jobs:
           path: ${{ runner.tool_cache }}/MyApp.ipa
 
 env:
-  UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-  UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-  UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
   APPLE_ID: ${{ secrets.APPLE_ID }}
   APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
