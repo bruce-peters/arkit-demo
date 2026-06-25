@@ -21,6 +21,7 @@ jobs:
             -archivePath ${{ runner.temp }}/MyApp.xcarchive \
             -allowProvisioningUpdates \
             DEVELOPMENT_TEAM="" \
+            PRODUCT_BUNDLE_IDENTIFIER=${{ vars.BUNDLE_ID || 'com.brucepeters.arkitdemo' }} \
             archive
           mkdir -p ExportPlist
           cat > ExportPlist/ExportOptions.plist << EOF
