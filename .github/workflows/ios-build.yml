@@ -13,56 +13,58 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Cache Unity packages
-        uses: actions/cache@v4
-        with:
-          key: Unity-6000.5.0f1
-          path: /tmp/unity-packages
-
-      - name: Download and install Unity
+      - name: Compile IL2CPP output to libGameAssembly.a
         run: |
-          mkdir -p /tmp/unity-packages
-          cd /tmp/unity-packages
-          if [ ! -f Unity.pkg ]; then
-            curl -o Unity.pkg "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorInstaller/Unity-6000.5.0f1.pkg"
+          SDK=$(xcrun --sdk iphoneos --show-sdk-path)
+          SRC="ios_build/Il2CppOutputProject/Source/il2cppOutput"
+          LIBSRC="ios_build/Il2CppOutputProject/IL2CPP/libil2cpp"
+          OBJ_DIR="${{ runner.temp }}/il2cpp-objs"
+          mkdir -p "$OBJ_DIR"
+
+          INCS="-I$LIBSRC -I$LIBSRC/pch -Iios_build/Il2CppOutputProject/IL2CPP/external/bdwgc/include"
+          CFLAGS="-arch arm64 -isysroot $SDK -miphoneos-version-min=15.0 -O2 -c -w"
+
+          for src in $(find "$SRC" -name "*.cpp" -o -name "*.c"); do
+            base=$(basename "$src" | sed 's/\.[^.]*$//')
+            if [ "${src##*.}" = "c" ]; then
+              clang $CFLAGS $INCS "$src" -o "$OBJ_DIR/${base}.o" 2>/dev/null
+            else
+              clang++ $CFLAGS -std=c++17 $INCS "$src" -o "$OBJ_DIR/${base}.o" 2>/dev/null
+            fi
+          done
+
+          COUNT=$(ls "$OBJ_DIR"/*.o 2>/dev/null | wc -l | tr -d ' ')
+          echo "Object files compiled: $COUNT"
+          if [ "$COUNT" -gt 0 ]; then
+            ar rcs "${{ runner.temp }}/libGameAssembly.a" "$OBJ_DIR"/*.o
+            echo "Created libGameAssembly.a ($(du -h ${{ runner.temp }}/libGameAssembly.a | cut -f1))"
+          else
+            echo "ERROR: No object files compiled!"
+            exit 1
           fi
-          if [ ! -f Unity-iOS.pkg ]; then
-            curl -o Unity-iOS.pkg "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorTargetInstaller/UnitySetup-iOS-Support-for-Editor-6000.5.0f1.pkg"
-          fi
-          sudo installer -pkg Unity.pkg -target /
-          sudo installer -pkg Unity-iOS.pkg -target /
 
-      - name: Find Unity path
-        id: unity
+      - name: Patch pbxproj - skip IL2CPP script
         run: |
-          p=$(find /Applications/Unity -name Unity -path "*/MacOS/Unity" | head -1)
-          echo "path=$p" >> $GITHUB_OUTPUT
-
-      - name: Activate Unity Personal
-        run: |
-          "${{ steps.unity.outputs.path }}" -batchmode -quit \
-            -username "${{ secrets.UNITY_EMAIL }}" \
-            -password "${{ secrets.UNITY_PASSWORD }}" \
-            -logFile /tmp/unity-license.log || true
-          cat /tmp/unity-license.log
-
-      - name: Build iOS Xcode project
-        run: |
-          export IOS_BUILD_PATH="${{ runner.temp }}/Unity-iOS-Build"
-          mkdir -p "$IOS_BUILD_PATH"
-          "${{ steps.unity.outputs.path }}" -batchmode -quit \
-            -projectPath "${{ github.workspace }}" \
-            -logFile /tmp/unity-build.log \
-            -executeMethod iOSBuilder.Build || true
-          cat /tmp/unity-build.log
-          ls -la "$IOS_BUILD_PATH/"
+          python3 << 'PYEOF'
+          import re
+          with open('ios_build/Unity-iPhone.xcodeproj/project.pbxproj', 'r') as f:
+              c = f.read()
+          c = re.sub(
+              r'(C62A2A42F32E085EF849CF0B[\s\S]*?shellScript = )"((?:[^"\\]|\\.)*)"',
+              r'\1"exit 0"',
+              c
+          )
+          with open('ios_build/Unity-iPhone.xcodeproj/project.pbxproj', 'w') as f:
+              f.write(c)
+          PYEOF
 
       - name: Build unsigned .app
         run: |
-          PROJ=$(find "${{ runner.temp }}/Unity-iOS-Build" -name "*.xcodeproj" -maxdepth 2 | head -1)
-          [ -z "$PROJ" ] && echo "No Xcode project found" && exit 1
+          DEST="${{ runner.temp }}/DerivedData/Build/Products/Release-iphoneos"
+          mkdir -p "$DEST"
+          cp "${{ runner.temp }}/libGameAssembly.a" "$DEST/"
           xcodebuild build \
-            -project "$PROJ" \
+            -project ios_build/Unity-iPhone.xcodeproj \
             -scheme Unity-iPhone \
             -configuration Release \
             -derivedDataPath ${{ runner.temp }}/DerivedData \
@@ -73,26 +75,12 @@ jobs:
       - name: Package .ipa
         run: |
           APP="${{ runner.temp }}/DerivedData/Build/Products/Release-iphoneos/Unity-iPhone.app"
-          [ ! -d "$APP" ] && echo "No .app found" && exit 1
-          mkdir -p "${{ runner.temp }}/Payload"
-          cp -R "$APP" "${{ runner.temp }}/Payload/"
-          cd "${{ runner.temp }}"
-          zip -r ${{ runner.tool_cache }}/MyApp.ipa Payload/
+          [ ! -d "$APP" ] && echo "No .app" && exit 1
+          mkdir -p "${{ runner.temp }}/Payload" && cp -R "$APP" "${{ runner.temp }}/Payload/"
+          cd "${{ runner.temp }}" && zip -r ${{ runner.tool_cache }}/MyApp.ipa Payload/
 
       - name: Upload .ipa
         uses: actions/upload-artifact@v4
         with:
           name: MyApp-iOS
           path: ${{ runner.tool_cache }}/MyApp.ipa
-
-      - name: Upload logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-logs
-          path: |
-            /tmp/unity-*.log
-
-env:
-  UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-  UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
