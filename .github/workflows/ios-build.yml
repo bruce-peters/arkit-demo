@@ -13,62 +13,70 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Compile IL2CPP output to libGameAssembly.a
+      - name: Install Unity 6000.5.0f1
         run: |
-          XCODE=$(find /Applications -maxdepth 1 -name "Xcode*.app" | head -1)
-          sudo xcode-select -s "$XCODE"
-          SDK=$(find "$XCODE" -path "*/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk" -maxdepth 8 | head -1)
-          echo "Xcode: $XCODE"
-          echo "SDK: $SDK"
-          SRC="ios_build/Il2CppOutputProject/Source/il2cppOutput"
-          LIBSRC="ios_build/Il2CppOutputProject/IL2CPP/libil2cpp"
-          OBJ_DIR="${{ runner.temp }}/il2cpp-objs"
-          mkdir -p "$OBJ_DIR"
+          mkdir -p /tmp/unity-pkgs && cd /tmp/unity-pkgs
+          [ ! -f Unity.pkg ] && curl -o Unity.pkg \
+            "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorInstaller/Unity-6000.5.0f1.pkg"
+          [ ! -f Unity-iOS.pkg ] && curl -o Unity-iOS.pkg \
+            "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorTargetInstaller/UnitySetup-iOS-Support-for-Editor-6000.5.0f1.pkg"
+          sudo installer -pkg Unity.pkg -target /
+          sudo installer -pkg Unity-iOS.pkg -target /
 
-          INCS="-I$LIBSRC -I$LIBSRC/pch -Iios_build/Il2CppOutputProject/IL2CPP/external/bdwgc/include"
-          CFLAGS="-arch arm64 -isysroot $SDK -miphoneos-version-min=15.0 -O2 -c -w"
+      - name: Find Unity path
+        id: unity
+        run: |
+          p=$(find /Applications/Unity -name Unity -path "*/MacOS/Unity" | head -1)
+          echo "path=$p" >> $GITHUB_OUTPUT
 
-          for src in $(find "$SRC" -name "*.cpp" -o -name "*.c"); do
-            base=$(basename "$src" | sed 's/\.[^.]*$//')
-            if [ "${src##*.}" = "c" ]; then
-              clang $CFLAGS $INCS "$src" -o "$OBJ_DIR/${base}.o" 2>/dev/null
-            else
-              clang++ $CFLAGS -std=c++17 $INCS "$src" -o "$OBJ_DIR/${base}.o" 2>/dev/null
-            fi
-          done
-
-          COUNT=$(ls "$OBJ_DIR"/*.o 2>/dev/null | wc -l | tr -d ' ')
-          echo "Object files compiled: $COUNT"
-          if [ "$COUNT" -gt 0 ]; then
-            ar rcs "${{ runner.temp }}/libGameAssembly.a" "$OBJ_DIR"/*.o
-            echo "Created libGameAssembly.a ($(du -h ${{ runner.temp }}/libGameAssembly.a | cut -f1))"
+      - name: Activate Unity license
+        id: license
+        run: |
+          if [ -z "${{ secrets.UNITY_LICENSE }}" ]; then
+            echo "No license found, generating .alf request file..."
+            echo "step=alf" >> $GITHUB_OUTPUT
+            "${{ steps.unity.outputs.path }}" -batchmode -quit \
+              -createManualActivationFile /tmp/Unity_Request.alf \
+              -logFile /tmp/alf.log || true
+            echo "--- ALF FILE ---"
+            cat /tmp/Unity_Request.alf
           else
-            echo "ERROR: No object files compiled!"
-            exit 1
+            echo "Found stored license, activating..."
+            echo "${{ secrets.UNITY_LICENSE }}" > /tmp/Unity_license.ulf
+            "${{ steps.unity.outputs.path }}" -batchmode -quit \
+              -manualLicenseFile /tmp/Unity_license.ulf \
+              -logFile /tmp/license.log || true
+            cat /tmp/license.log
+            echo "step=build" >> $GITHUB_OUTPUT
           fi
 
-      - name: Patch pbxproj - skip IL2CPP script
+      - name: Upload activation request
+        if: steps.license.outputs.step == 'alf'
+        uses: actions/upload-artifact@v4
+        with:
+          name: Unity-activation-request
+          path: /tmp/Unity_Request.alf
+
+      - name: Build iOS Xcode project
+        if: steps.license.outputs.step == 'build'
         run: |
-          python3 << 'PYEOF'
-          import re
-          with open('ios_build/Unity-iPhone.xcodeproj/project.pbxproj', 'r') as f:
-              c = f.read()
-          c = re.sub(
-              r'(C62A2A42F32E085EF849CF0B[\s\S]*?shellScript = )"((?:[^"\\]|\\.)*)"',
-              r'\1"exit 0"',
-              c
-          )
-          with open('ios_build/Unity-iPhone.xcodeproj/project.pbxproj', 'w') as f:
-              f.write(c)
-          PYEOF
+          EXPORT_PATH="${{ runner.temp }}/Unity-iOS-Build"
+          mkdir -p "$EXPORT_PATH"
+          export IOS_BUILD_PATH="$EXPORT_PATH"
+          "${{ steps.unity.outputs.path }}" -batchmode -quit \
+            -projectPath "${{ github.workspace }}" \
+            -executeMethod iOSBuilder.Build \
+            -logFile /tmp/unity-build.log
+          cat /tmp/unity-build.log
+          ls -la "$EXPORT_PATH/"
 
       - name: Build unsigned .app
+        if: steps.license.outputs.step == 'build'
         run: |
-          DEST="${{ runner.temp }}/DerivedData/Build/Products/Release-iphoneos"
-          mkdir -p "$DEST"
-          cp "${{ runner.temp }}/libGameAssembly.a" "$DEST/"
+          PROJ=$(find "${{ runner.temp }}/Unity-iOS-Build" -name "*.xcodeproj" -maxdepth 2 | head -1)
+          [ -z "$PROJ" ] && echo "No Xcode project" && exit 1
           xcodebuild build \
-            -project ios_build/Unity-iPhone.xcodeproj \
+            -project "$PROJ" \
             -scheme Unity-iPhone \
             -configuration Release \
             -derivedDataPath ${{ runner.temp }}/DerivedData \
@@ -77,6 +85,7 @@ jobs:
             PRODUCT_BUNDLE_IDENTIFIER=${{ vars.BUNDLE_ID || 'com.brucepeters.arkitdemo' }}
 
       - name: Package .ipa
+        if: steps.license.outputs.step == 'build'
         run: |
           APP="${{ runner.temp }}/DerivedData/Build/Products/Release-iphoneos/Unity-iPhone.app"
           [ ! -d "$APP" ] && echo "No .app" && exit 1
@@ -84,6 +93,7 @@ jobs:
           cd "${{ runner.temp }}" && zip -r ${{ runner.tool_cache }}/MyApp.ipa Payload/
 
       - name: Upload .ipa
+        if: steps.license.outputs.step == 'build'
         uses: actions/upload-artifact@v4
         with:
           name: MyApp-iOS
