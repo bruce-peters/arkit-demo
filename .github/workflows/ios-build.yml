@@ -15,7 +15,7 @@ jobs:
 
       - name: Compile IL2CPP output to libGameAssembly.a
         run: |
-          SDK=$(xcrun --sdk iphoneos --show-sdk-path)
+          sudo xcode-select -s /Applications/Xcode_16.4.app
           SRC="ios_build/Il2CppOutputProject/Source/il2cppOutput"
           LIBSRC="ios_build/Il2CppOutputProject/IL2CPP/libil2cpp"
           OBJ_DIR="${{ runner.temp }}/il2cpp-objs"
