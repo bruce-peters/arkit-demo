@@ -21,10 +21,17 @@ jobs:
       - name: Fix IL2CPP .NET assemblies for macOS
         run: |
           RUNTIME_DIR="$DOTNET_ROOT/shared/Microsoft.NETCore.App"
-          LATEST=$(ls -1 "$RUNTIME_DIR" | sort -V | tail -1)
-          echo "Using .NET runtime: $LATEST at $RUNTIME_DIR/$LATEST"
-          cp "$RUNTIME_DIR/$LATEST/System.Private.CoreLib.dll" \
-            ios_build/Il2CppOutputProject/IL2CPP/build/deploy_arm64/System.Private.CoreLib.dll
+          LATEST9=$(ls -1 "$RUNTIME_DIR" | grep "^9\." | sort -V | tail -1)
+          echo "Using .NET 9.x runtime: $LATEST9"
+          for dll in "$RUNTIME_DIR/$LATEST9"/*.dll; do
+            name=$(basename "$dll")
+            target="ios_build/Il2CppOutputProject/IL2CPP/build/deploy_arm64/$name"
+            if [ -f "$target" ]; then
+              cp "$dll" "$target"
+              echo "  Replaced: $name"
+            fi
+          done
+          echo "Done replacing .NET assemblies"
 
       - name: Build unsigned .app
         run: |
