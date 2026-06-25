@@ -13,31 +13,49 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup .NET 9.0
-        uses: actions/setup-dotnet@v4
+      - name: Cache Unity
+        uses: actions/cache@v4
         with:
-          dotnet-version: '9.0.x'
+          path: /Users/runner/Unity
+          key: Unity-6000.5.0f1
 
-      - name: Fix IL2CPP .NET assemblies for macOS
+      - name: Install Unity 6000.5.0f1
         run: |
-          RUNTIME_DIR="$DOTNET_ROOT/shared/Microsoft.NETCore.App"
-          LATEST9=$(ls -1 "$RUNTIME_DIR" | grep "^9\." | sort -V | tail -1)
-          echo "Using .NET 9.x runtime: $LATEST9"
-          DEPLOY_DIR="ios_build/Il2CppOutputProject/IL2CPP/build/deploy_arm64"
-          for lib in "$RUNTIME_DIR/$LATEST9"/*.dll "$RUNTIME_DIR/$LATEST9"/*.dylib; do
-            name=$(basename "$lib")
-            target="$DEPLOY_DIR/$name"
-            if [ -f "$target" ]; then
-              cp "$lib" "$target"
-              echo "  Replaced: $name"
-            fi
-          done
-          echo "Done replacing .NET runtime files"
+          if [ ! -d "/Users/runner/Unity/Unity.app" ]; then
+            mkdir -p /Users/runner/Unity
+            curl -o /tmp/Unity.pkg \
+              "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorInstaller/Unity-6000.5.0f1.pkg"
+            sudo installer -pkg /tmp/Unity.pkg -target /
+            cp -R /Applications/Unity /Users/runner/Unity/
+          fi
+          sudo ln -sf /Users/runner/Unity/Unity.app /Applications/Unity/Unity.app
+
+      - name: Activate Unity Personal License
+        run: |
+          /Applications/Unity/Unity.app/Contents/MacOS/Unity \
+            -batchmode -quit \
+            -username "${{ secrets.UNITY_EMAIL }}" \
+            -password "${{ secrets.UNITY_PASSWORD }}" \
+            -logFile /tmp/unity-license.log 2>&1 || true
+          ls -la /Applications/Unity/Unity.app/Contents/Resources/*.ulf 2>/dev/null || echo "No .ulf found yet"
+          cat /tmp/unity-license.log
+
+      - name: Build iOS Xcode project
+        run: |
+          /Applications/Unity/Unity.app/Contents/MacOS/Unity \
+            -batchmode -quit \
+            -projectPath "${{ github.workspace }}" \
+            -buildTarget iOS \
+            -outputPath "${{ runner.temp }}/Unity-iOS-Build" \
+            -logFile /tmp/unity-build.log 2>&1 || true
+          cat /tmp/unity-build.log
+          ls -la "${{ runner.temp }}/Unity-iOS-Build/" 2>/dev/null
 
       - name: Build unsigned .app
+        if: hashFiles('${{ runner.temp }}/Unity-iOS-Build/Unity-iPhone.xcodeproj') != ''
         run: |
           xcodebuild build \
-            -project ios_build/Unity-iPhone.xcodeproj \
+            -project "${{ runner.temp }}/Unity-iOS-Build/Unity-iPhone.xcodeproj" \
             -scheme Unity-iPhone \
             -configuration Release \
             -derivedDataPath ${{ runner.temp }}/DerivedData \
@@ -46,16 +64,36 @@ jobs:
             PRODUCT_BUNDLE_IDENTIFIER=${{ vars.BUNDLE_ID || 'com.brucepeters.arkitdemo' }}
 
       - name: Package .app into .ipa
+        if: success()
         run: |
           APP_PATH="${{ runner.temp }}/DerivedData/Build/Products/Release-iphoneos/Unity-iPhone.app"
-          PAYLOAD_PATH="${{ runner.temp }}/Payload"
-          mkdir -p "$PAYLOAD_PATH"
-          cp -R "$APP_PATH" "$PAYLOAD_PATH/"
-          cd "${{ runner.temp }}"
-          zip -r ${{ runner.tool_cache }}/MyApp.ipa Payload/
+          if [ -d "$APP_PATH" ]; then
+            PAYLOAD_PATH="${{ runner.temp }}/Payload"
+            mkdir -p "$PAYLOAD_PATH"
+            cp -R "$APP_PATH" "$PAYLOAD_PATH/"
+            cd "${{ runner.temp }}"
+            zip -r ${{ runner.tool_cache }}/MyApp.ipa Payload/
+          else
+            echo "No .app found at $APP_PATH"
+            find "${{ runner.temp }}/DerivedData" -name "*.app" -maxdepth 5 2>/dev/null
+          fi
 
       - name: Upload .ipa
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: MyApp-iOS
           path: ${{ runner.tool_cache }}/MyApp.ipa
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-logs
+          path: |
+            /tmp/unity-license.log
+            /tmp/unity-build.log
+
+env:
+  UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+  UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
