@@ -48,7 +48,7 @@ public static class iOSBuilder
             changed = true;
         }
 
-        if (!content.Contains("use x86_64 IL2CPP on Apple Silicon"))
+        if (!content.Contains("HOST_ARCH=\\\"x86_64\\\""))
         {
             content = content.Replace(
                 "HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$ARCHS\\\"",
