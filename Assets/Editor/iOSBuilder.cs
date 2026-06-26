@@ -65,7 +65,7 @@ public static class iOSBuilder
                 "\n" +
                 "CFLAGS := -arch arm64 -isysroot $(SDK_PATH) -miphoneos-version-min=12.0 -std=c++17 -stdlib=libc++ \\\n" +
                 "  -fno-exceptions -fno-rtti -O2 -DNDEBUG \\\n" +
-                "  -I$(SRC_DIR) -I$(IL2CPP_DIR)/libil2cpp -I$(IL2CPP_DIR)/libil2cpp/codegen \\\n" +
+                "  -I$(SRC_DIR) -I$(IL2CPP_DIR)/libil2cpp -I$(IL2CPP_DIR)/libil2cpp/pch -I$(IL2CPP_DIR)/libil2cpp/codegen \\\n" +
                 "  -I$(IL2CPP_DIR)/libil2cpp/os -I$(IL2CPP_DIR)/libil2cpp/os/Posix -I$(IL2CPP_DIR)/libil2cpp/os/c-api \\\n" +
                 "  -I$(IL2CPP_DIR)/libil2cpp/utils -I$(IL2CPP_DIR)/libil2cpp/vm -I$(IL2CPP_DIR)/libil2cpp/vm-utils \\\n" +
                 "  -I$(IL2CPP_DIR)/libil2cpp/metadata -I$(IL2CPP_DIR)/libil2cpp/gc \\\n" +

@@ -20,6 +20,7 @@ CFLAGS := -arch arm64 -isysroot $(SDK_PATH) -miphoneos-version-min=12.0 \
 	-O2 -DNDEBUG -DIL2CPP_ENABLE_WRITE_BARRIERS=1 \
 	-I$(SRC_DIR) \
 	-I$(IL2CPP_DIR)/libil2cpp \
+	-I$(IL2CPP_DIR)/libil2cpp/pch \
 	-I$(IL2CPP_DIR)/libil2cpp/codegen \
 	-I$(IL2CPP_DIR)/libil2cpp/os \
 	-I$(IL2CPP_DIR)/libil2cpp/os/Posix \
