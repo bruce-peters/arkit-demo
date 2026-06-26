@@ -36,7 +36,7 @@ public static class iOSBuilder
         {
             int shellEnd = content.IndexOf("\";", shellStart) + 2;
             string oldShell = content.Substring(shellStart, shellEnd - shellStart);
-            string newShell = "shellScript = \"cd \\\"$PROJECT_DIR\\\" && mkdir -p \\\"$CONFIGURATION_TEMP_DIR/artifacts/arm64/buildstate\\\" && make\\n\"";
+            string newShell = "shellScript = \"cd \\\"$PROJECT_DIR\\\" && mkdir -p \\\"$CONFIGURATION_TEMP_DIR/artifacts/arm64/buildstate\\\" && make\\n\";";
             content = content.Replace(oldShell, newShell);
             changed = true;
         }

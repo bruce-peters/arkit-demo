@@ -1628,7 +1628,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd \"$PROJECT_DIR\" && mkdir -p \"$CONFIGURATION_TEMP_DIR/artifacts/arm64/buildstate\" && make\n"
+			shellScript = "cd \"$PROJECT_DIR\" && mkdir -p \"$CONFIGURATION_TEMP_DIR/artifacts/arm64/buildstate\" && make\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
