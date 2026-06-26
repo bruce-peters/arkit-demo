@@ -48,10 +48,18 @@ public static class iOSBuilder
             changed = true;
         }
 
+        if (!content.Contains("use x86_64 IL2CPP on Apple Silicon"))
+        {
+            content = content.Replace(
+                "HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$ARCHS\\\"",
+                "HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$HOST_ARCH\\\" = \\\"arm64\\\" ]; then\\n    HOST_ARCH=\\\"x86_64\\\"\\n    HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$ARCHS\\\"");
+            changed = true;
+        }
+
         if (changed)
         {
             File.WriteAllText(pbxPath, content);
-            Debug.Log("[iOSBuilder] Patched pbxproj: toolchain auto-detect + quarantine removal added.");
+            Debug.Log("[iOSBuilder] Patched pbxproj: toolchain auto-detect + quarantine removal + x86_64 IL2CPP fallback.");
         }
         else
         {
