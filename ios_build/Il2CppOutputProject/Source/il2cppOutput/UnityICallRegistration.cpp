@@ -580,18 +580,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : Unity.U2D.Physics.Scripting2D
 
-	//Start Registrations for type : UnityEngine.Animation
-
-		//System.Int32 UnityEngine.Animation::GetStateCount_Injected(System.IntPtr)
-		void Register_UnityEngine_Animation_GetStateCount_Injected();
-		Register_UnityEngine_Animation_GetStateCount_Injected();
-
-		//UnityEngine.AnimationState UnityEngine.Animation::GetStateAtIndex_Injected(System.IntPtr,System.Int32)
-		void Register_UnityEngine_Animation_GetStateAtIndex_Injected();
-		Register_UnityEngine_Animation_GetStateAtIndex_Injected();
-
-	//End Registrations for type : UnityEngine.Animation
-
 	//Start Registrations for type : UnityEngine.AnimationCurve
 
 		//System.Boolean UnityEngine.AnimationCurve::Internal_Equals_Injected(System.IntPtr,System.IntPtr)
@@ -733,6 +721,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Application::OpenURL_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_Application_OpenURL_Injected();
 		Register_UnityEngine_Application_OpenURL_Injected();
+
+		//System.Void UnityEngine.Application::get_persistentDataPath_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Application_get_persistentDataPath_Injected();
+		Register_UnityEngine_Application_get_persistentDataPath_Injected();
 
 		//System.Void UnityEngine.Application::get_streamingAssetsPath_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_Application_get_streamingAssetsPath_Injected();
@@ -2205,6 +2197,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Gizmos::DrawSphere_Injected(UnityEngine.Vector3&,System.Single)
 		void Register_UnityEngine_Gizmos_DrawSphere_Injected();
 		Register_UnityEngine_Gizmos_DrawSphere_Injected();
+
+		//System.Void UnityEngine.Gizmos::DrawWireCube_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Gizmos_DrawWireCube_Injected();
+		Register_UnityEngine_Gizmos_DrawWireCube_Injected();
 
 		//System.Void UnityEngine.Gizmos::DrawWireSphere_Injected(UnityEngine.Vector3&,System.Single)
 		void Register_UnityEngine_Gizmos_DrawWireSphere_Injected();
@@ -3789,6 +3785,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.IntPtr UnityEngine.MeshFilter::get_sharedMesh_Injected(System.IntPtr)
 		void Register_UnityEngine_MeshFilter_get_sharedMesh_Injected();
 		Register_UnityEngine_MeshFilter_get_sharedMesh_Injected();
+
+		//System.Void UnityEngine.MeshFilter::set_mesh_Injected(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_MeshFilter_set_mesh_Injected();
+		Register_UnityEngine_MeshFilter_set_mesh_Injected();
 
 		//System.Void UnityEngine.MeshFilter::set_sharedMesh_Injected(System.IntPtr,System.IntPtr)
 		void Register_UnityEngine_MeshFilter_set_sharedMesh_Injected();

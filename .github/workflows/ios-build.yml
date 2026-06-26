@@ -1,100 +1,100 @@
-name: Build iOS Unity Project
+# name: Build iOS Unity Project
 
-on:
-  workflow_dispatch:
-  push:
-    branches: [main]
+# on:
+#   workflow_dispatch:
+#   push:
+#     branches: [main]
 
-jobs:
-  build-ios:
-    runs-on: macos-latest
+# jobs:
+#   build-ios:
+#     runs-on: macos-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
 
-      - name: Install Unity 6000.5.0f1
-        run: |
-          mkdir -p /tmp/unity-pkgs && cd /tmp/unity-pkgs
-          [ ! -f Unity.pkg ] && curl -o Unity.pkg \
-            "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorInstaller/Unity-6000.5.0f1.pkg"
-          [ ! -f Unity-iOS.pkg ] && curl -o Unity-iOS.pkg \
-            "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorTargetInstaller/UnitySetup-iOS-Support-for-Editor-6000.5.0f1.pkg"
-          sudo installer -pkg Unity.pkg -target /
-          sudo installer -pkg Unity-iOS.pkg -target /
+#       - name: Install Unity 6000.5.0f1
+#         run: |
+#           mkdir -p /tmp/unity-pkgs && cd /tmp/unity-pkgs
+#           [ ! -f Unity.pkg ] && curl -o Unity.pkg \
+#             "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorInstaller/Unity-6000.5.0f1.pkg"
+#           [ ! -f Unity-iOS.pkg ] && curl -o Unity-iOS.pkg \
+#             "https://download.unity3d.com/download_unity/88b47c5e7076/MacEditorTargetInstaller/UnitySetup-iOS-Support-for-Editor-6000.5.0f1.pkg"
+#           sudo installer -pkg Unity.pkg -target /
+#           sudo installer -pkg Unity-iOS.pkg -target /
 
-      - name: Find Unity path
-        id: unity
-        run: |
-          p=$(find /Applications/Unity -name Unity -path "*/MacOS/Unity" | head -1)
-          echo "path=$p" >> $GITHUB_OUTPUT
+#       - name: Find Unity path
+#         id: unity
+#         run: |
+#           p=$(find /Applications/Unity -name Unity -path "*/MacOS/Unity" | head -1)
+#           echo "path=$p" >> $GITHUB_OUTPUT
 
-      - name: Activate Unity license
-        id: license
-        run: |
-          if [ -z "${{ secrets.UNITY_LICENSE }}" ]; then
-            echo "No license found, generating .alf request file..."
-            echo "step=alf" >> $GITHUB_OUTPUT
-            "${{ steps.unity.outputs.path }}" -batchmode -quit \
-              -createManualActivationFile /tmp/Unity_Request.alf \
-              -logFile /tmp/alf.log || true
-            echo "--- ALF FILE ---"
-            cat /tmp/Unity_Request.alf
-          else
-            echo "Found stored license, activating..."
-            echo "${{ secrets.UNITY_LICENSE }}" > /tmp/Unity_license.ulf
-            "${{ steps.unity.outputs.path }}" -batchmode -quit \
-              -manualLicenseFile /tmp/Unity_license.ulf \
-              -logFile /tmp/license.log || true
-            cat /tmp/license.log
-            echo "step=build" >> $GITHUB_OUTPUT
-          fi
+#       - name: Activate Unity license
+#         id: license
+#         run: |
+#           if [ -z "${{ secrets.UNITY_LICENSE }}" ]; then
+#             echo "No license found, generating .alf request file..."
+#             echo "step=alf" >> $GITHUB_OUTPUT
+#             "${{ steps.unity.outputs.path }}" -batchmode -quit \
+#               -createManualActivationFile /tmp/Unity_Request.alf \
+#               -logFile /tmp/alf.log || true
+#             echo "--- ALF FILE ---"
+#             cat /tmp/Unity_Request.alf
+#           else
+#             echo "Found stored license, activating..."
+#             echo "${{ secrets.UNITY_LICENSE }}" > /tmp/Unity_license.ulf
+#             "${{ steps.unity.outputs.path }}" -batchmode -quit \
+#               -manualLicenseFile /tmp/Unity_license.ulf \
+#               -logFile /tmp/license.log || true
+#             cat /tmp/license.log
+#             echo "step=build" >> $GITHUB_OUTPUT
+#           fi
 
-      - name: Upload activation request
-        if: steps.license.outputs.step == 'alf'
-        uses: actions/upload-artifact@v4
-        with:
-          name: Unity-activation-request
-          path: /tmp/Unity_Request.alf
+#       - name: Upload activation request
+#         if: steps.license.outputs.step == 'alf'
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: Unity-activation-request
+#           path: /tmp/Unity_Request.alf
 
-      - name: Build iOS Xcode project
-        if: steps.license.outputs.step == 'build'
-        run: |
-          EXPORT_PATH="${{ runner.temp }}/Unity-iOS-Build"
-          mkdir -p "$EXPORT_PATH"
-          export IOS_BUILD_PATH="$EXPORT_PATH"
-          "${{ steps.unity.outputs.path }}" -batchmode -quit \
-            -projectPath "${{ github.workspace }}" \
-            -executeMethod iOSBuilder.Build \
-            -logFile /tmp/unity-build.log
-          cat /tmp/unity-build.log
-          ls -la "$EXPORT_PATH/"
+#       - name: Build iOS Xcode project
+#         if: steps.license.outputs.step == 'build'
+#         run: |
+#           EXPORT_PATH="${{ runner.temp }}/Unity-iOS-Build"
+#           mkdir -p "$EXPORT_PATH"
+#           export IOS_BUILD_PATH="$EXPORT_PATH"
+#           "${{ steps.unity.outputs.path }}" -batchmode -quit \
+#             -projectPath "${{ github.workspace }}" \
+#             -executeMethod iOSBuilder.Build \
+#             -logFile /tmp/unity-build.log
+#           cat /tmp/unity-build.log
+#           ls -la "$EXPORT_PATH/"
 
-      - name: Build unsigned .app
-        if: steps.license.outputs.step == 'build'
-        run: |
-          PROJ=$(find "${{ runner.temp }}/Unity-iOS-Build" -name "*.xcodeproj" -maxdepth 2 | head -1)
-          [ -z "$PROJ" ] && echo "No Xcode project" && exit 1
-          xcodebuild build \
-            -project "$PROJ" \
-            -scheme Unity-iPhone \
-            -configuration Release \
-            -derivedDataPath ${{ runner.temp }}/DerivedData \
-            CODE_SIGNING_ALLOWED=NO \
-            CODE_SIGN_IDENTITY="" \
-            PRODUCT_BUNDLE_IDENTIFIER=${{ vars.BUNDLE_ID || 'com.brucepeters.arkitdemo' }}
+#       - name: Build unsigned .app
+#         if: steps.license.outputs.step == 'build'
+#         run: |
+#           PROJ=$(find "${{ runner.temp }}/Unity-iOS-Build" -name "*.xcodeproj" -maxdepth 2 | head -1)
+#           [ -z "$PROJ" ] && echo "No Xcode project" && exit 1
+#           xcodebuild build \
+#             -project "$PROJ" \
+#             -scheme Unity-iPhone \
+#             -configuration Release \
+#             -derivedDataPath ${{ runner.temp }}/DerivedData \
+#             CODE_SIGNING_ALLOWED=NO \
+#             CODE_SIGN_IDENTITY="" \
+#             PRODUCT_BUNDLE_IDENTIFIER=${{ vars.BUNDLE_ID || 'com.brucepeters.arkitdemo' }}
 
-      - name: Package .ipa
-        if: steps.license.outputs.step == 'build'
-        run: |
-          APP="${{ runner.temp }}/DerivedData/Build/Products/Release-iphoneos/Unity-iPhone.app"
-          [ ! -d "$APP" ] && echo "No .app" && exit 1
-          mkdir -p "${{ runner.temp }}/Payload" && cp -R "$APP" "${{ runner.temp }}/Payload/"
-          cd "${{ runner.temp }}" && zip -r ${{ runner.tool_cache }}/MyApp.ipa Payload/
+#       - name: Package .ipa
+#         if: steps.license.outputs.step == 'build'
+#         run: |
+#           APP="${{ runner.temp }}/DerivedData/Build/Products/Release-iphoneos/Unity-iPhone.app"
+#           [ ! -d "$APP" ] && echo "No .app" && exit 1
+#           mkdir -p "${{ runner.temp }}/Payload" && cp -R "$APP" "${{ runner.temp }}/Payload/"
+#           cd "${{ runner.temp }}" && zip -r ${{ runner.tool_cache }}/MyApp.ipa Payload/
 
-      - name: Upload .ipa
-        if: steps.license.outputs.step == 'build'
-        uses: actions/upload-artifact@v4
-        with:
-          name: MyApp-iOS
-          path: ${{ runner.tool_cache }}/MyApp.ipa
+#       - name: Upload .ipa
+#         if: steps.license.outputs.step == 'build'
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: MyApp-iOS
+#           path: ${{ runner.tool_cache }}/MyApp.ipa
