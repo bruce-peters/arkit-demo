@@ -56,6 +56,14 @@ public static class iOSBuilder
             changed = true;
         }
 
+        if (!content.Contains("dotnet il2cpp.dll"))
+        {
+            content = content.Replace(
+                "\\\"$IL2CPP\\\" \\\"${ARGS[@]}\\\"\\nif [ $? -ne 0 ]; then\\n    exit 1\\nfi\\nrm -rf",
+                "if command -v dotnet >/dev/null 2>&1; then\\n    (cd \\\"$IL2CPP_DIR\\\" && dotnet il2cpp.dll \\\"${ARGS[@]}\\\") || (\\\"$IL2CPP\\\" \\\"${ARGS[@]}\\\") || exit 1\\nelse\\n    \\\"$IL2CPP\\\" \\\"${ARGS[@]}\\\"\\nfi\\nif [ $? -ne 0 ]; then\\n    exit 1\\nfi\\nrm -rf");
+            changed = true;
+        }
+
         if (changed)
         {
             File.WriteAllText(pbxPath, content);
