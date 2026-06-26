@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		00000000008063A1000160D3 /* UnityRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B079BAA2E828D2B00C8A203 /* UnityRuntime.framework */; };
 		01F967D36F74C7C4205C1BD6 /* lib_burst_generated.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB61E49F0B27D71CDA3B02F /* lib_burst_generated.a */; };
-		0221497B90A2F50B4D444AA0 /* ARReferenceImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCD40CAA4D059039A845822 /* ARReferenceImages.xcassets */; };
 		02E266F5EC37F510C1FC96A8 /* iPhone_Sensors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E962712F03732960A8B8D33 /* iPhone_Sensors.h */; };
 		030A68812E193A334BDD7087 /* iOSStepCounter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E23E0EB80EBE2A174954738 /* iOSStepCounter.mm */; };
 		03D511E658AE17A360EACBE2 /* LifeCycleListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 797A8B83CAB5D0BA14B0C94C /* LifeCycleListener.mm */; };
@@ -49,6 +48,7 @@
 		415674EFD2EC187355BC05B1 /* LaunchScreen-iPhoneLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E24B93E9D27D99850693BAF /* LaunchScreen-iPhoneLandscape.png */; };
 		4206105962EED44BFA4F9BD3 /* OrientationSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BCDE89198A4FD69E85C6A52 /* OrientationSupport.mm */; };
 		443730AA2B4ED688E8818488 /* OrientationSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0E35CAADD8155085A01C93 /* OrientationSupport.h */; };
+		44C34B92848EAAFC46F3C41B /* ARReferenceImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339A4DC6AC03636B916C0001 /* ARReferenceImages.xcassets */; };
 		465A60CC6D272037004F5B90 /* LifeCycleListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B2C85ECAA415E3EE6D28C2 /* LifeCycleListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		475B26F38A3A652C6174529D /* IUnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 679ACDCF6D14CA6FE6F81479 /* IUnityInterface.h */; };
 		4A4BE9532DDD3BA9A064B13C /* UnityAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F83B23D496299923A2010A3 /* UnityAppController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -343,6 +343,7 @@
 		33021DBF5A5B60EF2C1D15AA /* NoGraphicsHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NoGraphicsHelper.mm; path = Classes/Unity/NoGraphicsHelper.mm; sourceTree = SOURCE_ROOT; };
 		3308B3043A951C59509F2A0A /* Generics__107.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__107.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__107.cpp; sourceTree = SOURCE_ROOT; };
 		338C4897DA1522073BC5D19C /* UnityForwardDecls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityForwardDecls.h; path = Classes/Unity/UnityForwardDecls.h; sourceTree = SOURCE_ROOT; };
+		339A4DC6AC03636B916C0001 /* ARReferenceImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ARReferenceImages.xcassets; path = "Unity-iPhone/ARReferenceImages.xcassets"; sourceTree = SOURCE_ROOT; };
 		33C38F0EAAAD1FAB39DAF810 /* Generics__101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__101.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__101.cpp; sourceTree = SOURCE_ROOT; };
 		344F2C6BDED1BC5D75C5916F /* StoreReview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StoreReview.m; path = Classes/UI/StoreReview.m; sourceTree = SOURCE_ROOT; };
 		34743A492F319FAA45DDBBF8 /* Unity.InputSystem__8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.InputSystem__8.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.InputSystem__8.cpp; sourceTree = SOURCE_ROOT; };
@@ -567,7 +568,6 @@
 		8C6481AAF9DF30825E391E8B /* UnityEngine.SpatialTracking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.SpatialTracking.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpatialTracking.cpp; sourceTree = SOURCE_ROOT; };
 		8C7BCD6B7061E2EFE2373A0F /* Unity.XR.CoreUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.XR.CoreUtils.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.XR.CoreUtils.cpp; sourceTree = SOURCE_ROOT; };
 		8C8C1A6492D15D41E8A08F9C /* Generics__82.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__82.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__82.cpp; sourceTree = SOURCE_ROOT; };
-		8CCD40CAA4D059039A845822 /* ARReferenceImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ARReferenceImages.xcassets; path = "Unity-iPhone/ARReferenceImages.xcassets"; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D13621DBE69B85E504D57D6 /* Generics__66.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__66.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__66.cpp; sourceTree = SOURCE_ROOT; };
 		8DF7D168881C3EF89850AD0A /* Generics__6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__6.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__6.cpp; sourceTree = SOURCE_ROOT; };
@@ -1014,7 +1014,7 @@
 				5A3A1B4C3FB1FC90023B942E /* LaunchScreen-iPhone.storyboard */,
 				1E24B93E9D27D99850693BAF /* LaunchScreen-iPhoneLandscape.png */,
 				681AA63C19788ACA381FB8C1 /* LaunchScreen-iPhonePortrait.png */,
-				F42D4C7EBE52C37D9DBB3A29 /* Unity-iPhone */,
+				435B441EBE97370855F75A3B /* Unity-iPhone */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1099,6 +1099,14 @@
 				22F6FC861C8520D4107BC96A /* Runtime */,
 			);
 			path = com.unity.xr.arkit;
+			sourceTree = "<group>";
+		};
+		435B441EBE97370855F75A3B /* Unity-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				339A4DC6AC03636B916C0001 /* ARReferenceImages.xcassets */,
+			);
+			path = "Unity-iPhone";
 			sourceTree = "<group>";
 		};
 		45C76ABEC14C6E10C9CFC809 /* il2cppOutput */ = {
@@ -1767,14 +1775,6 @@
 			path = Libraries;
 			sourceTree = SOURCE_ROOT;
 		};
-		F42D4C7EBE52C37D9DBB3A29 /* Unity-iPhone */ = {
-			isa = PBXGroup;
-			children = (
-				8CCD40CAA4D059039A845822 /* ARReferenceImages.xcassets */,
-			);
-			path = "Unity-iPhone";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1990,7 +1990,7 @@
 				415674EFD2EC187355BC05B1 /* LaunchScreen-iPhoneLandscape.png in Resources */,
 				763ED5D885EABF761B2FE262 /* LaunchScreen-iPad.storyboard in Resources */,
 				D085C06443DB1B1B5C6637B6 /* LaunchScreen-iPad.png in Resources */,
-				0221497B90A2F50B4D444AA0 /* ARReferenceImages.xcassets in Resources */,
+				44C34B92848EAAFC46F3C41B /* ARReferenceImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2020,7 +2020,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd \"$PROJECT_DIR\" && mkdir -p \"$CONFIGURATION_TEMP_DIR/artifacts/arm64/buildstate\" && make\n";
+			shellScript = "mkdir -p \"$CONFIGURATION_TEMP_DIR/artifacts/arm64/buildstate/\"\nmkdir -p \"$PROJECT_DIR/Il2CppTempDirArtifacts/$CONFIGURATION\"\nln -sF  \"$CONFIGURATION_TEMP_DIR/artifacts\" \"$PROJECT_DIR/Il2CppTempDirArtifacts/$CONFIGURATION/artifacts\"\nif [ \"$CONFIGURATION\" = \"Debug\" ];\nthen\n    IL2CPP_CONFIG=\"Debug\"\nelse\n    IL2CPP_CONFIG=\"Release\"\nfi\n\nHOST_ARCH=$(uname -m)\nif [ \"$HOST_ARCH\" = \"arm64\" ];\nthen\n    HOST_ARCH_BEE=\"arm64\"\nelse\n    HOST_ARCH_BEE=\"x64\"\nfi\n\nif [ \"$ARCHS\" = \"arm64\" ];\nthen\n    LIB_ARCH=\"arm64\"\nelif [ \"$ARCHS\" = \"x86_64\" ];\nthen\n   LIB_ARCH=\"x64\"\nelse\n   LIB_ARCH=\"$HOST_ARCH_BEE\"\nfi\n\necho \"Lib arch: $LIB_ARCH\"\necho \"Host arch: $HOST_ARCH\"\necho \"Bee arch: $HOST_ARCH_BEE\"\n\nIL2CPP_DIR=\"$PROJECT_DIR/Il2CppOutputProject/IL2CPP/build/deploy_$HOST_ARCH\"\nIL2CPP=\"$IL2CPP_DIR/il2cpp\"\nchmod +x \"$IL2CPP\"\nchmod +x \"$IL2CPP-compile\"\nchmod +x \"$IL2CPP_DIR/bee_backend/mac-$HOST_ARCH_BEE/bee_backend\"\n\nARGS=(\n    --compile-cpp\n    --platform=iOS\n    --baselib-directory=\"Libraries\"\n    --dotnetprofile=unityaot-macos\n    --profiler-report\n    --print-command-line\n    --static-lib-il2-cpp\n    --generatedcppdir=\"Il2CppOutputProject/Source/il2cppOutput\"\n    --custom-il2-cpp-root=\"Il2CppOutputProject/IL2CPP\"\n    --architecture=\"$LIB_ARCH\"\n    --outputpath=\"$CONFIGURATION_BUILD_DIR/libGameAssembly.a\"\n    --cachedirectory=\"Il2CppTempDirArtifacts/$CONFIGURATION/artifacts/$LIB_ARCH\"\n    --configuration=\"$IL2CPP_CONFIG\"\n    )\n\n# Enable this flag to search for toolchain and SDK automatically.\n# If multiple versions of Xcode are present on the system, this may result in an arbitrary selection, potentially causing a mismatch between the Xcode toolchain used for building Il2Cpp and the one used for building the app. This discrepancy could lead to compatibility issues and unexpected behavior.\nSELECT_TOOLCHAIN_SDK_AUTOMATICALLY=\"false\"\nif [ \"$SELECT_TOOLCHAIN_SDK_AUTOMATICALLY\" = \"false\" ]; then\n    UNITY_TOOLCHAIN_DIR=\"\"\n    if [ -n \"$TOOLCHAIN_DIR\" ] && [ -d \"$TOOLCHAIN_DIR\" ] && [ -f \"$TOOLCHAIN_DIR/usr/bin/clang++\" ]; then\n        UNITY_TOOLCHAIN_DIR=\"$TOOLCHAIN_DIR\"\n    fi\n    if [ -z \"$UNITY_TOOLCHAIN_DIR\" ] && [ -n \"$DT_TOOLCHAIN_DIR\" ] && [ -f \"$DT_TOOLCHAIN_DIR/usr/bin/clang++\" ]; then\n        UNITY_TOOLCHAIN_DIR=\"$DT_TOOLCHAIN_DIR\"\n    fi\n    if [ -z \"$UNITY_TOOLCHAIN_DIR\" ]; then\n        echo \"Toolchain not found in environment variable. Enable SELECT_TOOLCHAIN_SDK_AUTOMATICALLY for automatic detection.\"\n        exit 1\n    fi\n\n    if [ -n \"$SDKROOT\" ] && [ -d \"$SDKROOT\" ]; then\n        ARGS+=(\n            --tool-chain-path=\"$UNITY_TOOLCHAIN_DIR\"\n            --sysroot-path=\"$SDKROOT\"\n        )\n    else\n        echo \"error: Toolchain and/or SDK was not found. To enable automatic toolchain/SDK discovery, override SELECT_TOOLCHAIN_SDK_AUTOMATICALLY flag.\"\n        exit 1\n    fi\nelse\n    echo \"warning: The toolchain and SDK will be selected automatically. If multiple versions of Xcode are present on the system, this may result in an arbitrary selection, potentially causing a mismatch between the Xcode toolchain used for building Il2Cpp and the one used for building the app. This discrepancy could lead to compatibility issues and unexpected behavior.\"\nfi\n\n\"$IL2CPP\" \"${ARGS[@]}\"\nif [ $? -ne 0 ]; then\n    exit 1\nfi\nrm -rf \"$PROJECT_DIR/Il2CppTempDirArtifacts/$CONFIGURATION\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
