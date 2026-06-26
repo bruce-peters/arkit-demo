@@ -205,7 +205,7 @@
 #define UNITY_USES_WEBCAM 0
 #define UNITY_USES_MICROPHONE 0
 #define UNITY_USES_LOCATION 0
-#define UNITY_USES_IAD 1
+#define UNITY_USES_IAD 0
 
 //------------------------------------------------------------------------------
 //

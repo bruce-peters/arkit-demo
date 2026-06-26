@@ -6,7 +6,7 @@
 
 // Enable custom crash reporter to capture crashes. Crash logs will be available to scripts via
 // CrashReport API.
-#define ENABLE_CUSTOM_CRASH_REPORTER 1
+#define ENABLE_CUSTOM_CRASH_REPORTER 0
 
 void InitCrashHandling();
 void CleanupCrashHandling();

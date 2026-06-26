@@ -238,7 +238,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIModuleHelpURL__ctor_m2DB495CCC60ACCC50
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 73381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t489270D8576DC4B57CC3FCFF016869C5CEEF011A UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m06F4C6A815B4DF9CBFE1291C59793C62DD11F110 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -249,7 +248,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t489270D8576DC4B57CC3FCFF01686
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t187CD5651459C6A4A2A418D7046EC05BC2B5DE6D_StaticFields____E69563F10A3A5AE82DA3EF5BF1D8AEA031DFB37710F2557F1285F5F86BED55F4_RVAStorage);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	MonoScriptData_t489270D8576DC4B57CC3FCFF016869C5CEEF011A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -273,10 +271,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t489270D8576DC4B57CC3FCFF01686
 		return L_6;
 	}
 }
-// Method Definition Index: 73382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m329F1F2E79585A9FE55A1680F09D4B38A0A2EB37 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tFA6451B18824D9EBA7403AC175BB9C75E02EEF61* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -360,10 +356,8 @@ IL2CPP_EXTERN_C void MonoScriptData_t489270D8576DC4B57CC3FCFF016869C5CEEF011A_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 73383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectUtilsBridge_MarkDirty_m806D9A6DB8982C962721D9E4B974BBC23B38B5EE (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = ___0_obj;
 		NullCheck(L_0);
@@ -379,7 +373,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectUtilsBridge_MarkDirty_m806D9A6DB89
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 73384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMPHelpURL__ctor_m7C42784B8848234D4344E83F18520D6523857D6C (TMPHelpURL_t8DC2B4A929F46C3F7E5809052038FB7BD9BC0AA4* __this, String_t* ___0_pageName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -388,7 +381,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMPHelpURL__ctor_m7C42784B8848234D4344E8
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D831953437178E747E963C4D0C0B4B193912365);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	{
 		String_t* L_0 = ___0_pageName;
 		String_t* L_1;

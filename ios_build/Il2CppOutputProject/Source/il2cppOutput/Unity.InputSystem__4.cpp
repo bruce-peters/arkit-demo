@@ -2200,7 +2200,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControl_set_isButton_m862BB994D08F3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 35366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastTouchscreen__ctor_m855BB5ECB5E319A49C12BF1C5D3B16269FC4C044 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2233,7 +2232,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastTouchscreen__ctor_m855BB5ECB5E319A49
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF13E4BFF086D4E511E68B0617B76ACC5BD5AFFE7);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 V_1;
@@ -5363,7 +5361,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastTouchscreen__ctor_m855BB5ECB5E319A49
 		return;
 	}
 }
-// Method Definition Index: 35367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouch_mAFA66979773CFC2C362F81179AF5861FDF13015F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5375,7 +5372,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral96F6475ED750A82A44E692C566734533023173A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -5427,7 +5423,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreenposition_m567E0C2837EA91DF5F22B87F527476D548B996A7 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5439,7 +5434,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -5494,7 +5488,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreendelta_m1E7BC16DF8CFB35855DB8D4772F72542E572E6F9 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5506,7 +5499,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -5558,7 +5550,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenpressure_m84FFA6D0ADC75D997CAC87A14F1065242597988F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAnalogLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5570,7 +5561,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7CFABA7C6462657D1BE1B82BCB25DB5422A67CE8);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -5624,7 +5614,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreenradius_m0139638240DCEEBA5F40FDA350A57782AD552D6F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5636,7 +5625,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C9F18A4F030B96447955FBBA1A99FFC43B5D8E0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -5688,7 +5676,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreenpress_m4066164BCDFED8991D18AA1B8D996DA95FB8A8E4 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5700,7 +5687,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA99DCC00443D797894F4B10607C716D806A9105F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -5759,7 +5745,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreendisplayIndex_mCAFFD2C0B51CC3AEFA77DEFD7FEDFC534E47D541 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5771,7 +5756,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE5EDABA1ACD51BE2EA5F7FF54AC3820866282CD9);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -5817,7 +5801,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch0_m5D3047FB5EBD17D2BECBA7E7BD766FB3429538C6 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5829,7 +5812,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral532DE7412C94CA43BF9D364CC2E0112458D2789B);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -5878,7 +5860,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch1_mB0852AEAD806AB89731BB5B16E15B5A01F70794B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5890,7 +5871,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral69F55BBE5F5C23E52786AB3377374697A220A655);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -5939,7 +5919,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch2_mAAECA0A4DFA4FD661823DF1FACFD963D489FBB29 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5951,7 +5930,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B1DAE65C578EECD1B97804E9F116112B6EFD6F5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6000,7 +5978,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch3_m5AE13795BEB9167404F5300515B3EE14A52599E0 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6012,7 +5989,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFA3F5237605F6DC223B858BB288D68F62EC3C1FE);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6061,7 +6037,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch4_mCD4353FC949DA298D61A039C27839C64491C3C49 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6073,7 +6048,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral54FAAE4305213DB9200E710068E3041ED840B32F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6122,7 +6096,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch5_m2DEB26D3ADB59537061B665D2C482605EB7BC494 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6134,7 +6107,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC0DA0B08A2759779A55A6D5DF4E475D84390E4EF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6183,7 +6155,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch6_mFBC30B608AF8953F0078BA2A63A3802ADA4F5DC0 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6195,7 +6166,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral84A5FACA78ACF5A5B9B18362B624BA73906CAEA1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6244,7 +6214,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch7_m39EB9C17C428BC3D53BDE5443A7ED529F19AA5F1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6256,7 +6225,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral54F1DD7D586CD40388A4FFE24A503C4B9CCB8917);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6305,7 +6273,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch8_m79A0D6F0E2A1920E646230F3DEC98312550E0805 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6317,7 +6284,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral45EDE4DB19150515241E2FE6610B1490B1DED5C7);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6366,7 +6332,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* FastTouchscreen_Initialize_ctrlTouchscreentouch9_mA4FD717116CABA31E976390CA65354D9A007B764 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6378,7 +6343,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral71F01140BBEB9C382849C041C1F03869CF6BD678);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6427,7 +6391,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		return L_1;
 	}
 }
-// Method Definition Index: 35384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchtouchId_m0EA54BB3F3A429E3FDC5DE5437C2749E89D11ABE (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6439,7 +6402,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6494,7 +6456,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchposition_m0CCA5983BA52BE0938AE0BF0CDAFC42C6F87ED99 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6506,7 +6467,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6561,7 +6521,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdelta_m256F1ED15938A725C477E40493F8FA4BC3B59D4D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6573,7 +6532,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6625,7 +6583,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchpressure_m29D81A5F733089FF9AC19BA937DC826EE1C13AD2 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6637,7 +6594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC6F9EB5182B773C7B00F5C28FD6E15F8CE29F06C);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6686,7 +6642,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchradius_m24DD10ADD444791147889F5B2111BB7F361C1900 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6698,7 +6653,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C9F18A4F030B96447955FBBA1A99FFC43B5D8E0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6750,7 +6704,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchphase_m31EA2E0CEA1D9ABA4676FF0314191698578CDE9E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6762,7 +6715,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral75CCAADAD2910DE05A773CAE7925C0F773F1DADC);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6814,7 +6766,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchpress_m92BD5A2C54A057B519793FC99C65CD2F97AB45C4 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6826,7 +6777,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD3D85D6F8C8E8A0DDBBCB884B3C94C75B26F0F94);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6885,7 +6835,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchtapCount_m99CAC868824C99F73B27696992E80A2100D36470 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6897,7 +6846,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -6946,7 +6894,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdisplayIndex_m80001ADFBBC1920A8FE427AC671793971D15A7E9 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6958,7 +6905,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB624235BF2D7964F2345ECC1D415BE83D6A8AD6B);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7007,7 +6953,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchindirectTouch_m74F43737323FA46CD5A8FA0C19C7A68092E117B4 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7019,7 +6964,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral51C575A27A627076AD290C7FBC62D527F9C64E39);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7081,7 +7025,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchtap_mA2CBA41D1E93F88AC4675C45F9272A56260F5725 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7093,7 +7036,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7155,7 +7097,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchstartTime_mE62641FF91B1E08C96D26F6081FB434A91695D18 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7167,7 +7108,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEB4064728B8B57D04FA31AD717302314F0E339F1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7219,7 +7159,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchstartPosition_m2EDE1FA26B1C347CCAF358F02349242153C57C8F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7231,7 +7170,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7286,7 +7224,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchpositionx_m10F0B99C2417900516F2BA141FCDD7F41BA877BA (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7298,7 +7235,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral148F3C64DB382E5B6984E77E34AF6EB068B6702E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7350,7 +7286,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchpositiony_m14501C5A9339F16A6D1629C1C2C4A15C7F4D92FE (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7362,7 +7297,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7414,7 +7348,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltaup_m039AB0EC3B6085EAA8F9D146EEACE5095EC6F182 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7426,7 +7359,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA751A5ACBB0884B30B2E300AAF2513F4FF25F260);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7484,7 +7416,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltadown_m478B14C4E253646B7A1D11B7246CBF8CA01D436C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7496,7 +7427,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C8D455A37F192606C175F70693A07AE55F5F76C);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7557,7 +7487,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltaleft_mFD4767C2B1F8B64DA83543B1F9290A824BAB84BF (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7569,7 +7498,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF9B06845333F448DBDB8814FD93C9F08E191C625);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7630,7 +7558,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltaright_mC2DEBFF44B89E68FD43095AB539C58D63DE9566C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7642,7 +7569,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7700,7 +7626,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltax_m60586EE67BF0C358AA0490544219CEDCFFC47175 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7712,7 +7637,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D4EB93954653A60A086D16E172A6ECE886D5307);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7761,7 +7685,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltay_m6454CAD580266CB7434DFA0B1F887CE2C99CC130 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7773,7 +7696,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7822,7 +7744,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchradiusx_m4B47BAFFF825EE1C3F1EC5B6E765F9A7E2E04E2C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7834,7 +7755,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5FAD692980EC37CB7ECE57D02AA88CA358E3B01D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7883,7 +7803,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchradiusy_m8E7712A2A0C8413C2306DCFF1B6C0CDF8584386D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7895,7 +7814,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -7944,7 +7862,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchstartPositionx_mF3CC175738ED9DCE8C317830FAB22414FBA9A6C1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7956,7 +7873,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral98F073956ECE061CEADB2008E20BE18453219707);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8005,7 +7921,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchstartPositiony_m9557483EF3EB2E8DF9029E784A0A132DA20594AB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8017,7 +7932,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8066,7 +7980,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenpositionx_m254320EFEF390B8DCC1F3400271C4B59EB450EE1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8078,7 +7991,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral63A66544182E60A0B41E75178AA7BE94309EF08F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8130,7 +8042,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenpositiony_mD419A01D911CC7AEF238F918B2854FF53DDD8707 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8142,7 +8053,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5ED819663B2FB75AB220874BDCC37731931BF53);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8194,7 +8104,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreendeltaup_m16C460CA81DAA2B8B29E466C9F8F450171F5E838 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8206,7 +8115,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB56A2F44F5D52FB336ACEBDAA624066C8780F3D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8264,7 +8172,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreendeltadown_mC76E5F914A54CE8E01C0FD78EB2B8E950D21BCC3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8276,7 +8183,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8E5708A6E10ECEDD6C79E0A4A1B15A225EFE7E57);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8337,7 +8243,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreendeltaleft_m25D8AE65ABEA5912F5E8D23F66D2A4F7D653BBDC (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8349,7 +8254,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral876D93F4B29CCD7342A2D8D702F8945FF0396682);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8410,7 +8314,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreendeltaright_mB34D0ADABCD9DB08CE7292CF8AA90C3048C5E0C6 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8422,7 +8325,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8480,7 +8382,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreendeltax_m13AA9836D12AAA5B141C4EBD28C3F352B557E56B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8492,7 +8393,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2D1FADF5216A279FF8145B59C3BB842997CDF199);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8541,7 +8441,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreendeltay_mAB4D4F8359970FCED55957231F82EF50390BAAC9 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8553,7 +8452,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9538BAEDBF589D7D271123873993D6B72FC02D11);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8602,7 +8500,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenradiusx_m7E183DBE164864737F0999F05443E2E5E2451201 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8614,7 +8511,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC7C7E6AD84800CB8A50706F46E0567A6458C0F10);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8663,7 +8559,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreenradiusy_mC867360B72A70F835F543F7D4EFF0F606F8AD0EB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8675,7 +8570,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8724,7 +8618,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch0touchId_mC320286E0E2C233D9672E3F9D0C6B4D8B0AD2810 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8736,7 +8629,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8791,7 +8683,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch0position_m79C39C8E3011AED5E4E203E1BC698B3FB1F1C55D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8803,7 +8694,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8858,7 +8748,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch0delta_mF87A508C87B7D67DB05EC929D97C476094DB1A15 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8870,7 +8759,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8922,7 +8810,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0pressure_mD5B92273E56782F8EA71B449B563F6EDC9F6DBE6 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8934,7 +8821,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -8983,7 +8869,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch0radius_mD5837975930231F471AD2798C3C1AB486FF95EC6 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8995,7 +8880,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9047,7 +8931,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch0phase_m97B34A8C887100859643CE2F584B96AB17BB086B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9059,7 +8942,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9111,7 +8993,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch0press_m7B6C93AAE4F4EFF9DCA55B454C4E147FEC2DBBCF (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9123,7 +9004,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9182,7 +9062,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch0tapCount_m7829F3CC90ABB57FA5A04E4811B945C2A64625F3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9194,7 +9073,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9243,7 +9121,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch0displayIndex_m86F0E84BC163A556B54A0F1EC287F5B1E85823EF (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9255,7 +9132,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9304,7 +9180,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch0indirectTouch_m2C6B9BD449C63F55EB8FA23DBA56680D751926F2 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9316,7 +9191,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9378,7 +9252,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch0tap_m0C395F7BF1C3E2E593B574DC8746781B7E0E4895 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9390,7 +9263,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9449,7 +9321,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch0startTime_m8ECDBC62861430AE9C737F99E7F14961065F97DB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9461,7 +9332,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9513,7 +9383,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch0startPosition_mFD41C937F4DC55183E3DE0F09612C6D2DCD269C9 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9525,7 +9394,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9580,7 +9448,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0positionx_mD77738DA29D65248F2BB2289F756D510B7A2A588 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9592,7 +9459,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9644,7 +9510,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0positiony_m4D6DA464CE1436F293829FAA3D3D450CC77BBD5D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9656,7 +9521,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9708,7 +9572,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0deltaup_mB26CE2FB9D0FE6834099494C04A922CA4B86D254 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9720,7 +9583,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9778,7 +9640,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0deltadown_m9F3661607F7F1AF6FB7BB7E36299C1B47012B5D8 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9790,7 +9651,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9851,7 +9711,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0deltaleft_mB92C723B6C9376C877CD0FF97BCC25D6134E7A04 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9863,7 +9722,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9924,7 +9782,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0deltaright_m321B1740A8F25F181115ED1282074E74ADE13BA6 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9936,7 +9793,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -9994,7 +9850,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0deltax_m03CC1AD3D106A1AC66D408FD3A974130FCDA99F4 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10006,7 +9861,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10055,7 +9909,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0deltay_m48659C19EB0C099A992A741DF0287320B65C582E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10067,7 +9920,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10116,7 +9968,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0radiusx_m0AE91C767E451FC506751A97959CA7A6C34CE33B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10128,7 +9979,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10177,7 +10027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0radiusy_mB81C976E1EB5CD352D65B32A9857A4C518C18454 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10189,7 +10038,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10238,7 +10086,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0startPositionx_m9E825FEEAB3B82D56DB46E0EB354B6484B7D9EF6 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10250,7 +10097,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10299,7 +10145,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch0startPositiony_mBBA0FFA5448A248A387A7579831FDFEC03ACA51B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10311,7 +10156,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10360,7 +10204,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch1touchId_m51EB17E9907B6CB8C4AC4662D592B87B800A3D0D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10372,7 +10215,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10427,7 +10269,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch1position_mEE7AA93CD8729614446948997F774864CB7F1758 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10439,7 +10280,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10494,7 +10334,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch1delta_m80AA0DFEC62B0426781622D5A0E581471A9FCA72 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10506,7 +10345,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10558,7 +10396,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1pressure_m630304F7412591BBA1D8B8CE7813CF13AF729AF3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10570,7 +10407,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10619,7 +10455,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch1radius_m0D2D2BD8201E9CF2E38DCED95C0B92A333B4A810 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10631,7 +10466,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10683,7 +10517,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch1phase_mF780D13FC9A53193E0A8CE29A217AB97EA59B5C4 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10695,7 +10528,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10747,7 +10579,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch1press_m59B55523F38E7EA21047AFDCA67A9E262CB9A04E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10759,7 +10590,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10818,7 +10648,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch1tapCount_mC9895523690CCDC2D6C790A77B07148D994294DE (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10830,7 +10659,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10879,7 +10707,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch1displayIndex_m40E071F8DB52455BC6D061991E54C5B145190268 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10891,7 +10718,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -10940,7 +10766,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch1indirectTouch_m83DDFAA43604D1200375DAEB96C24A17D24DFAAB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10952,7 +10777,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11014,7 +10838,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch1tap_m9DD48F603FBC29E15F1E10DDF54CF3C2DB0F213A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11026,7 +10849,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11085,7 +10907,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch1startTime_mFFBBC48DC8B7DB925E021FD6DE4F9BDF8C82D488 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11097,7 +10918,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11149,7 +10969,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch1startPosition_mFF76AD2F9916761DF5BCD2E876CFE76806897627 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11161,7 +10980,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11216,7 +11034,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1positionx_m7E145F98C519AF2582522A4168EE09296B545358 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11228,7 +11045,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11280,7 +11096,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1positiony_mD3499CEC2F25A217E7740A64EBA28527A3870EF6 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11292,7 +11107,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11344,7 +11158,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1deltaup_mC77AC9B9382E8928095C2C94789A6708641234DA (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11356,7 +11169,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11414,7 +11226,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1deltadown_m09AD942EAF3774CE5BF1EAE8135BA3A29133C374 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11426,7 +11237,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11487,7 +11297,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1deltaleft_mE462312647AFDA55DB69A3E76B5840BF195A2FE0 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11499,7 +11308,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11560,7 +11368,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1deltaright_m419A0AE1C83D671C93F0CF0DC541D630E8CB8D0A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11572,7 +11379,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11630,7 +11436,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1deltax_mC2DE650AC1988A9BB8277BC73CFED5D1116E6F79 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11642,7 +11447,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11691,7 +11495,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1deltay_m5AB2D9A1A9D918565599C606B40ED2338ACC56EA (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11703,7 +11506,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11752,7 +11554,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1radiusx_m7C11E2271FEE13F3E566D0C38F8503EB7408630B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11764,7 +11565,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11813,7 +11613,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1radiusy_mA5720F6E2E0886D4237F209221F7CC7C7C7CC55F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11825,7 +11624,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11874,7 +11672,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1startPositionx_m45D6DCA5BF02F814410FCA2109AAA09EBD916A5B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11886,7 +11683,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11935,7 +11731,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch1startPositiony_mF9CB07160B8114087E208BAEAC03E4C0F84D3EAD (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11947,7 +11742,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -11996,7 +11790,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch2touchId_m2733420F12AE1EC9109E8546591E0E71A9A110BB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12008,7 +11801,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12063,7 +11855,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch2position_mA801BDD683EFCD0B3CC36E57B4FE36C8F2403275 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12075,7 +11866,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12130,7 +11920,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch2delta_m3491220A3FFFF41D22ED4576FD1B3C37FE8DC2FF (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12142,7 +11931,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12194,7 +11982,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2pressure_m0DE8F9F5DB29352ED90DF296FF9D3047D158FBBD (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12206,7 +11993,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12255,7 +12041,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch2radius_mA00B4048CF479B9A8E5C69DC5D497B19218FE303 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12267,7 +12052,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12319,7 +12103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch2phase_m7B7C75B621EADA70CA54398EFF5F168C5BB248A2 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12331,7 +12114,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12383,7 +12165,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch2press_m36C09ABB422255E2A741F8E6E9B5F3EC65FCB995 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12395,7 +12176,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12454,7 +12234,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch2tapCount_mC6734F4069E24A5EC9D3ABEB072C2F14A9AC8025 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12466,7 +12245,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12515,7 +12293,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch2displayIndex_mAB9322A277B6F9353E16394CBEF060FB70CB598A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12527,7 +12304,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12576,7 +12352,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch2indirectTouch_m4085D83D96316D543A5414CB2B6D6E143EF255FA (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12588,7 +12363,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12650,7 +12424,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch2tap_m0D533AD0259F74AB0EEB4A1D4964B9DF737E3826 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12662,7 +12435,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12721,7 +12493,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch2startTime_m924812946E7892FC5DC0AA37D65EC8AB3E42C6A4 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12733,7 +12504,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12785,7 +12555,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch2startPosition_m98C1D72F273D5147B38695A72FD29192F525FA76 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12797,7 +12566,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12852,7 +12620,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2positionx_m90397D6FF19E71D48CB97D8638661030C2B765D1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12864,7 +12631,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12916,7 +12682,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2positiony_mE912208F60A4CA90B8A46483C279F067663B67D0 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12928,7 +12693,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -12980,7 +12744,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2deltaup_m9F1B02911C29BAFB84C201CE29DF240595284506 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12992,7 +12755,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13050,7 +12812,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2deltadown_mD2E1104F99694420C1D869C7F33A02E68D370055 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13062,7 +12823,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13123,7 +12883,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2deltaleft_m2C565396CF17077206AAD29D77270179EFAA950E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13135,7 +12894,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13196,7 +12954,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2deltaright_m41BF07FF5552D28B90B9241BD75DAC08516CCC29 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13208,7 +12965,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13266,7 +13022,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2deltax_m636F9FD0C3537CB804675515F134E1CF9952C734 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13278,7 +13033,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13327,7 +13081,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2deltay_m99D6B244B630F962F46989F8643844C794F0503B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13339,7 +13092,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13388,7 +13140,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2radiusx_mA163041B357CD77D5837184F1A7408AAB1FFDC2A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13400,7 +13151,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13449,7 +13199,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2radiusy_m00ABF085C1310EA93FC74CACB609FF6535253298 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13461,7 +13210,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13510,7 +13258,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2startPositionx_m2F2A8489DD979AB94B2236F670B7F1FC60287D36 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13522,7 +13269,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13571,7 +13317,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch2startPositiony_mF398AFCEE42DB143D73BF84B9FD745EA7032C68A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13583,7 +13328,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13632,7 +13376,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch3touchId_m7134D71ABCF9720CEFBF8C1995D5B5605413C1FD (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13644,7 +13387,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13699,7 +13441,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch3position_mA4C81BAFA0F40130E196095DD3F10C4CB9C12D72 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13711,7 +13452,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13766,7 +13506,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch3delta_mA460DE8E6226D8213498C38E0378209DFF03C9CD (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13778,7 +13517,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13830,7 +13568,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3pressure_mBF3E5BD7E09CBAE622BCAD269C692737D6F2EDB7 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13842,7 +13579,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13891,7 +13627,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch3radius_mC725320935C75F197E1F95DC3C7AD987233DFCEE (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13903,7 +13638,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -13955,7 +13689,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch3phase_mB78E0B0D5377FD03B9A474640F0514FD55FF98EA (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13967,7 +13700,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14019,7 +13751,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch3press_m6DE07FE81BB13CF35EBB61E3A600293E5275A5AE (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14031,7 +13762,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14090,7 +13820,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch3tapCount_m3270A4138E28E54C345E7D9A458FCFA720CEB5DC (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14102,7 +13831,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14151,7 +13879,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch3displayIndex_mD90AE4E066F6AE86596DFE4181640A50D0F34DDB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14163,7 +13890,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14212,7 +13938,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch3indirectTouch_m836B7562C03B3CDD77B7729BA501B87F2070227A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14224,7 +13949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14286,7 +14010,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch3tap_m766B427F3C48E93F929EDC1E8A041C1A8EBB1408 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14298,7 +14021,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14357,7 +14079,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch3startTime_m7465B24D5C4E71BA55BF076BB4CCE107DEBCC67E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14369,7 +14090,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14421,7 +14141,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch3startPosition_mFD1E5371158AE4BDD6DAA8E3A35214C1BB7D9718 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14433,7 +14152,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14488,7 +14206,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3positionx_m01B910FD17C4B31B6AC5FFC3A0F877BFA392C1C3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14500,7 +14217,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14552,7 +14268,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3positiony_m4EB1463AEDE1685D8E48D96A551EC01150478280 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14564,7 +14279,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14616,7 +14330,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3deltaup_m7B7E6B254FE9993FFCDC05F9DE07090CDB0F50A0 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14628,7 +14341,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14686,7 +14398,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3deltadown_m7B9DDE4CB078B120BA82899C209DA2A0B5636147 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14698,7 +14409,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14759,7 +14469,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3deltaleft_m78EC248B9CEC856C741587E57B890EE51FC61ED4 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14771,7 +14480,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14832,7 +14540,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3deltaright_m298FC3BE6FEEECB6F8879E3D70A5FF56397F826A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14844,7 +14551,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14902,7 +14608,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3deltax_m4DA3349CF7223ED7FDA1B480836249A7B33FD7B3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14914,7 +14619,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -14963,7 +14667,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3deltay_m67B37AD9FA7A2138B1071900F199773602890209 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14975,7 +14678,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15024,7 +14726,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3radiusx_mA60E47060ED3F77C27123571166BF75D10B47BCB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15036,7 +14737,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15085,7 +14785,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3radiusy_m506B054D9FE78A4A1BA5E74B559AE7C7EEBDADC1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15097,7 +14796,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15146,7 +14844,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3startPositionx_mA504E0350CDFFC2449604C95BF43BC2D5ACB9C83 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15158,7 +14855,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15207,7 +14903,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch3startPositiony_mBBC3D8C06188233D5D80A15ECA68CF56C17B9668 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15219,7 +14914,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15268,7 +14962,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch4touchId_mF5FC363C45A7511AC5D428CD40831FFBF552A25B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15280,7 +14973,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15335,7 +15027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch4position_m677803443909AAAC47470086CCDB45F740309260 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15347,7 +15038,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15402,7 +15092,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch4delta_mC9694263D21C55E8785F7AB19CE1B3C00715A9DD (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15414,7 +15103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15466,7 +15154,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4pressure_m192D91FA04856D1123B30FBEA3A141E152E3E73A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15478,7 +15165,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15527,7 +15213,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch4radius_m25B00C5FC34177CB004231C9A584ADAB669F9C4B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15539,7 +15224,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15591,7 +15275,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch4phase_m4D2219CA4F63636528A5FBE54901DD064418CAF7 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15603,7 +15286,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15655,7 +15337,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch4press_m43E99857FE602F3E8807D96AA2FFC832D378AFD4 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15667,7 +15348,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15726,7 +15406,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch4tapCount_m9D3372E57CC8E94D9249F9F47A73EC850E50EA69 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15738,7 +15417,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15787,7 +15465,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch4displayIndex_m073A429E4D071929255AFB9046D0FCA39A18EC81 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15799,7 +15476,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15848,7 +15524,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch4indirectTouch_m075EA18FC48533DC79217AB9C129AD59285D9E7A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15860,7 +15535,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15922,7 +15596,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch4tap_m95D3829507B7823B72032923790EF6661E85D612 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15934,7 +15607,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -15993,7 +15665,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch4startTime_mAE0FA99223617BCE78F7ABB7FEFDE508643419FD (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16005,7 +15676,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16057,7 +15727,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch4startPosition_mB7401DE48CBD6C7965386AD83D541F9518228FF1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16069,7 +15738,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16124,7 +15792,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4positionx_m46CFBAB31D4485133DFB0E7F619ABDAD06D7C813 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16136,7 +15803,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16188,7 +15854,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4positiony_m4E975D477EC0C03B8E764FE9919BD3796C87CF2A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16200,7 +15865,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16252,7 +15916,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4deltaup_m1F4D66F6C2C152784FC66C2818578959BD25CA0A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16264,7 +15927,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16322,7 +15984,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4deltadown_mAFEF8390F52BF2331F3B098FCFC261AF2221E9B9 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16334,7 +15995,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16395,7 +16055,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4deltaleft_mF873A1E2D881489ECF1C4383D684611E2D9B218A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16407,7 +16066,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16468,7 +16126,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4deltaright_m171B683193D607C7B0D6D0C6DE768DB6D223F1D5 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16480,7 +16137,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16538,7 +16194,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4deltax_m56DCF154044720F9C9D6C346AFB67B99D6DAD62D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16550,7 +16205,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16599,7 +16253,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4deltay_mD277E25E46142053427079EF141136C05A7F430C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16611,7 +16264,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16660,7 +16312,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4radiusx_mE2FBB00BE3725B2FE5F1B1E066F799F98EFC7B30 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16672,7 +16323,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16721,7 +16371,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4radiusy_mA8E27B1AC4BE463E8B8155F867C6CA8EA98A2597 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16733,7 +16382,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16782,7 +16430,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4startPositionx_m88C1205F7C6A30A0698095EACC7E18FB1EF2A3A8 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16794,7 +16441,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16843,7 +16489,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch4startPositiony_mD5C339D55F92C028F71AB965D5DB2B3BE4D1AA15 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16855,7 +16500,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16904,7 +16548,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch5touchId_mB510834666C998EBC26B034D44F1046F75E8215D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16916,7 +16559,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -16971,7 +16613,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch5position_mD009435312D20CCC8762358BB57573BF80C5C1F0 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16983,7 +16624,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17038,7 +16678,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch5delta_m6735B698583222D3C6E0E24A40F446442C323475 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17050,7 +16689,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17102,7 +16740,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5pressure_m8790F9476C483E27C887E4B291232223F7DA54D5 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17114,7 +16751,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17163,7 +16799,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch5radius_m9C27DF7D6FFA4C360E8660DEC1D40B5BEF6ADBD9 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17175,7 +16810,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17227,7 +16861,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch5phase_m1A120B21A3813F37BB99F34EA1F75F02EB1EBDF6 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17239,7 +16872,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17291,7 +16923,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch5press_mB09EEA41ED163F760682CF752918D24EA6E24C89 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17303,7 +16934,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17362,7 +16992,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch5tapCount_mE27D95147A42D6C167B7D4BB7D2B6C3395EF566C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17374,7 +17003,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17423,7 +17051,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch5displayIndex_m674940A7ADD4D020024254E2423AC2C8837D91DB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17435,7 +17062,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17484,7 +17110,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch5indirectTouch_mCAD19218F57A42A04C011ABA6CFE6EE3DEEE9F93 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17496,7 +17121,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17558,7 +17182,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch5tap_m7C878361577933023B61CABA9D44B97A2A463F56 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17570,7 +17193,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17629,7 +17251,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch5startTime_m0A26DAC8529C6C061E010D712AC66560DB5951A7 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17641,7 +17262,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17693,7 +17313,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch5startPosition_mBC7C61B11EDA1EA1939FC99E875E2D96271980E8 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17705,7 +17324,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17760,7 +17378,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5positionx_m0BDCADBFE3673C1FDF051B8D35B0F6ED61E1C80D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17772,7 +17389,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17824,7 +17440,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5positiony_mE5A0B07CBEF6831E8D5EFD1A745B3B4F382ADA66 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17836,7 +17451,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17888,7 +17502,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5deltaup_m7F8FEBD052589481037C24450A6F8C69EFE488D3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17900,7 +17513,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -17958,7 +17570,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5deltadown_mFEA0FD9D24B55DB3671BFFE32D3B303296D9FBB2 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17970,7 +17581,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18031,7 +17641,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5deltaleft_m8B465F99991FCCF3B60B54E7465BDC38D4CD29FC (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18043,7 +17652,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18104,7 +17712,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5deltaright_mAA2A3A860F5ABB33C9E75042D0349159B648CCB9 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18116,7 +17723,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18174,7 +17780,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5deltax_m76E0C629BBBAD178087BF5B1BF9276C93EC715EC (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18186,7 +17791,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18235,7 +17839,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5deltay_mE05617149EA6469A4E8F6C1D72D4E5497B2AC760 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18247,7 +17850,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18296,7 +17898,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5radiusx_m2EE1F3AB39EF489804F12E3D2D5C65E1E8F31943 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18308,7 +17909,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18357,7 +17957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5radiusy_m9AD3DAD917637F9F28F2F4EB02BCFF56790FF225 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18369,7 +17968,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18418,7 +18016,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5startPositionx_mE38E6D46783FD67A7FC58CF987B957FD06C7DE7C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18430,7 +18027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18479,7 +18075,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch5startPositiony_mBC3A9D36A3DAAB0FDDB8DEC5CAB53DB2E4FD72AE (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18491,7 +18086,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18540,7 +18134,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch6touchId_m9EBF8E7A0BE18880C52BB86F289639D53F9CC31B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18552,7 +18145,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18607,7 +18199,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch6position_m0133A75BFD1F29326D02345BD623B7316B4319B0 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18619,7 +18210,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18674,7 +18264,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch6delta_m2E83A27108852F8DD2151A6B9F4028655B504CF3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18686,7 +18275,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18738,7 +18326,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6pressure_m59A71A533C89BC14119FD399E00CF1837D35B81B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18750,7 +18337,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18799,7 +18385,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch6radius_m9CC1656EF253111D33EA76A952A9526C1E358DF3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18811,7 +18396,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18863,7 +18447,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch6phase_m1C4203C47AA855DC51129EFE1CF85DDC41D67A1C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18875,7 +18458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18927,7 +18509,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch6press_mC368145030BB8E8EEBFB2A1EDC1D19A96F54E207 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18939,7 +18520,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -18998,7 +18578,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch6tapCount_m89900E30CE01319AEE1AD7154FDA8F353995EC70 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19010,7 +18589,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19059,7 +18637,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch6displayIndex_m6B6D44674FF0CAB934D30DD203CE18287E8F4326 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19071,7 +18648,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19120,7 +18696,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch6indirectTouch_m356CB83126FC1DCB3135E16D39890D53B485491F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19132,7 +18707,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19194,7 +18768,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch6tap_m6808E413F1F8154F140B59A45F4994D2F2C2BFF5 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19206,7 +18779,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19265,7 +18837,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch6startTime_m5E54E8484B0F13A4B8E1EC8D33CD1711F93DBF54 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19277,7 +18848,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19329,7 +18899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch6startPosition_m58062861C46B4E850C2AC89037E7815488A9EC34 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19341,7 +18910,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19396,7 +18964,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6positionx_mC5F4FE96E3CB297BBBD57CD0EED620510FDD1A71 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19408,7 +18975,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19460,7 +19026,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6positiony_m8B05BC270CBC7F77CE950CB385183D588B2C09A9 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19472,7 +19037,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19524,7 +19088,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6deltaup_mE821EF32A3362B1F130256463BB07EC3C0CC3A88 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19536,7 +19099,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19594,7 +19156,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6deltadown_m849A47ABCB42A812D529B18D4178B18584725356 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19606,7 +19167,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19667,7 +19227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6deltaleft_m7DFBBEA7559FCBD684D787CD7001DB144D6F58BB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19679,7 +19238,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19740,7 +19298,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6deltaright_m444BC7F7090B0FAFB84009DF5A37DA70DB5A9BF1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19752,7 +19309,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19810,7 +19366,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6deltax_m4AD51BDB67E2F0E7B529F8749DD2F6DCC1E34671 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19822,7 +19377,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19871,7 +19425,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6deltay_m5028688CDD049F844D37E7B94618BE5DBC13BC6E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19883,7 +19436,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19932,7 +19484,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6radiusx_mCFF04FB7354E19AA0D0426F0583B3CEC9E617682 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19944,7 +19495,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -19993,7 +19543,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6radiusy_mB8AA849B8CE23DC80CA3F70CAE2BFE81F0D60BF2 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20005,7 +19554,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20054,7 +19602,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6startPositionx_m1B2585D080FA261FD8586628BB6E37274BD3D8ED (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20066,7 +19613,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20115,7 +19661,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch6startPositiony_mA30DC0B0106F02A70EF5154EE306DF113E3613AB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20127,7 +19672,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20176,7 +19720,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch7touchId_m41CF5E0C7E4D399B189B578950C36094719274F2 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20188,7 +19731,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20243,7 +19785,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch7position_mB1E0990AF105705A6E8439BF27024BADE0A863EB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20255,7 +19796,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20310,7 +19850,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch7delta_m3D36798B6DC947F697FFA520D23461AF5F58C7DB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20322,7 +19861,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20374,7 +19912,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7pressure_m448E73AC1BC4047868ED682B4172FA03974B8624 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20386,7 +19923,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20435,7 +19971,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch7radius_m97BAC9279C0E7048CD907B06B14F55CFE186C8A2 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20447,7 +19982,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20499,7 +20033,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch7phase_m28856366F0ACC27293EB837F866B705D91CAF983 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20511,7 +20044,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20563,7 +20095,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch7press_m7BD38362EA7633D01DFD665D2A02DC5D298144CC (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20575,7 +20106,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20634,7 +20164,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch7tapCount_mE78BAA817DC8544850BE1CF46FAB7DAF0B661FEA (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20646,7 +20175,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20695,7 +20223,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch7displayIndex_m172734BC2D9140484DD87709B8C55A3960CCDD2E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20707,7 +20234,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20756,7 +20282,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch7indirectTouch_m4774393036C2790598E645D9050E8C0B246BBA7A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20768,7 +20293,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20830,7 +20354,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch7tap_mC1562E90F769503553F2FD631C4412BACF2740E0 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20842,7 +20365,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20901,7 +20423,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch7startTime_m5F8AE504B2E847E4DF2FEE9BA48AD2027A2F4563 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20913,7 +20434,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -20965,7 +20485,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch7startPosition_m38D924E26CC5B4D579120F10FA1D22FE379EFE42 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20977,7 +20496,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21032,7 +20550,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7positionx_mF1F9B14D6685FA7114F644D9211F19C28381AA3B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21044,7 +20561,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21096,7 +20612,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7positiony_m5147CD6547E12E9946AD89CEADDDD2EAC7FC29B2 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21108,7 +20623,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21160,7 +20674,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7deltaup_mE88E05DB6ADF65A955F667EC67E5804A85DAB170 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21172,7 +20685,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21230,7 +20742,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7deltadown_m9BF0367C2320323975A5BB99C46803E2F02A66DB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21242,7 +20753,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21303,7 +20813,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7deltaleft_m41568AA15DE63E4BCCDB6748A49688D63F9E0FD6 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21315,7 +20824,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21376,7 +20884,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7deltaright_m2805C8750D448F50F9653D67C721903F417A5161 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21388,7 +20895,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21446,7 +20952,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7deltax_mA8A323FC2FE2951364C29F82FE8B42C9B3D8CB3D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21458,7 +20963,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21507,7 +21011,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7deltay_m58CFA659D9DFB23519279C243C4220B71CEF57B5 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21519,7 +21022,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21568,7 +21070,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7radiusx_m6F0685D27736A8170415BC4B908DDDFDFF21880A (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21580,7 +21081,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21629,7 +21129,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7radiusy_m4FE3B55D83EBAABAD918F4CEFA50C170242810CE (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21641,7 +21140,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21690,7 +21188,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7startPositionx_m9E7CFB32AB1CD130A01E9A80DA824BA44E322EE8 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21702,7 +21199,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21751,7 +21247,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch7startPositiony_m719E21797178E3DA649D3DFBC150407506F2643C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21763,7 +21258,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21812,7 +21306,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch8touchId_mAA9E0E7EE25FB1F7B4B9AC52D9CF0A590E3604EA (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21824,7 +21317,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21879,7 +21371,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch8position_mB9E4932BD9692EC7D6E358ACC72D468A13F66B8E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21891,7 +21382,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -21946,7 +21436,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch8delta_mE288E6B47EC5C170BCFABB1C065EE02CAE94E5C5 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21958,7 +21447,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22010,7 +21498,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8pressure_m0ACA06810BB9B699AADE1560E0589A1BEBC5EA6F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22022,7 +21509,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22071,7 +21557,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch8radius_m1574780B5CE967E5DDE2B65B6477CF5A00521689 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22083,7 +21568,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22135,7 +21619,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch8phase_m2825B8A91835529BF4095E009BE3B21663123C65 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22147,7 +21630,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22199,7 +21681,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch8press_mAC7190F2E7E1CBC9E67ED1E8F9E003AB6020A48E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22211,7 +21692,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22270,7 +21750,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch8tapCount_mD3F6FCEAFE1D05752686C41EF1419D95B8BDA4EB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22282,7 +21761,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22331,7 +21809,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch8displayIndex_m97B5DFCD8F405532C3166B961A546C2A3B290D8B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22343,7 +21820,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22392,7 +21868,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch8indirectTouch_mCAB4ED30CA3204F2880E18B776A8832B0CEB03C2 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22404,7 +21879,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22466,7 +21940,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch8tap_mE5BD4EFF2E035F8A9B0CA29D058FF999D01C4A86 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22478,7 +21951,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22537,7 +22009,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch8startTime_mA9522C24FF0215F6CF989AB2E57847BDA46D027F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22549,7 +22020,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22601,7 +22071,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch8startPosition_mE77D46BC5150D7B7A01CE83940437950C3155486 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22613,7 +22082,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22668,7 +22136,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8positionx_m8CAF28386BE878009B7B29FE3120F10C5879B9F1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22680,7 +22147,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22732,7 +22198,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8positiony_m9A7B0084A3D547AFA3B8DD2E82D3F27007CD4D1E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22744,7 +22209,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22796,7 +22260,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8deltaup_m27892FAA3B12E053F26EF9FD9B47ACF453D50CD3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22808,7 +22271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22866,7 +22328,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8deltadown_m9BF561942ECEDE6F40156CC4EAB3EB72CDEFA9A5 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22878,7 +22339,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -22939,7 +22399,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8deltaleft_m2D496F495A46EE6F3E543D278CA1C91530083582 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22951,7 +22410,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23012,7 +22470,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8deltaright_m17E5DDE701C0A3C6CBE8799A5E36DCC575E2F0DC (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23024,7 +22481,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23082,7 +22538,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8deltax_m63AF7D5991296D364197E84911BD7C284114121F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23094,7 +22549,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23143,7 +22597,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8deltay_mDE41411720D08E42AFE3D74AF16C65FA8AF13B30 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23155,7 +22608,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23204,7 +22656,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8radiusx_m3EAB286E8ACA5A9A7C9C54E64B38D479F3DEC594 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23216,7 +22667,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23265,7 +22715,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8radiusy_mB215E6F03A8D9ECC19310D87ECF862656A353304 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23277,7 +22726,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23326,7 +22774,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8startPositionx_m32D7716BEC885FA3AFBFC853CD523D3363FD01D9 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23338,7 +22785,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23387,7 +22833,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch8startPositiony_mC956A8ED49C3535B52BE489C3E62CB09BCD143F3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23399,7 +22844,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23448,7 +22892,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch9touchId_mE3E22A52A4F3D00EEDBEF633A25986B963037D47 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23460,7 +22903,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA28DE9B1EC41301C4E9F1DF15D7C4930F25BDB0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23515,7 +22957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch9position_m0C0961D49B9F81AA178A3615B8BA1660F7CC6476 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23527,7 +22968,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88BDF3D0791A560245652E772545C49897854443);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23582,7 +23022,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* FastTouchscreen_Initialize_ctrlTouchscreentouch9delta_m27E63D8A4F2C09C4EDDFFCCA3D3216DE88E4C2D1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDeltaLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23594,7 +23033,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92385CF8B4C7F761AD0681C15E22CC65128E70E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23646,7 +23084,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		return L_1;
 	}
 }
-// Method Definition Index: 35647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9pressure_m7821451F03D886425A62ACB96FB891FBE7B685F7 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23658,7 +23095,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB683F4B580C5C166CB68C3097D6E9B63C2FAC4E6);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23707,7 +23143,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch9radius_m3B347E75E3D6DDFAFBBBB24E15446A290C8AF751 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23719,7 +23154,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA3B6063A1079F17992B816A934D7F9787E45F74);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23771,7 +23205,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* FastTouchscreen_Initialize_ctrlTouchscreentouch9phase_m323F61558BEB228DD4D784F09D8B528437764977 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPhaseLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23783,7 +23216,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral661CE8D8618062D0EE715B5D246633072A048E14);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23835,7 +23267,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		return L_1;
 	}
 }
-// Method Definition Index: 35650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* FastTouchscreen_Initialize_ctrlTouchscreentouch9press_mEE43934CB6A1C688A4F15D35D3F646866B5C39EF (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kTouchPressLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23847,7 +23278,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA16CA7ED114AA88BEB56957449CD637AB7E45E51);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23906,7 +23336,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		return L_1;
 	}
 }
-// Method Definition Index: 35651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch9tapCount_mB8D6C45F601294C5F9A13CD1A07F0E39EC17F3A4 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23918,7 +23347,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE405B10B27F3652D719FA853EF1C46717CEE64C5);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -23967,7 +23395,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* FastTouchscreen_Initialize_ctrlTouchscreentouch9displayIndex_m0203DCAC055E8F13260CFBBB0F099963FD0D053F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kIntegerLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23979,7 +23406,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF31D4AE3F1D1768D33F2B5B0E0BAE82111FB0F80);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24028,7 +23454,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		return L_1;
 	}
 }
-// Method Definition Index: 35653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch9indirectTouch_m04A30547029EA5706F62DB3B2706E925600B84BF (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24040,7 +23465,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE811A94B8F08F4DADC77B676E87FF79E4D0811DB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24102,7 +23526,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastTouchscreen_Initialize_ctrlTouchscreentouch9tap_mE7F6D4B54BBA40428AB6DA27BCE369890BBB905F (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24114,7 +23537,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFC8A5C3AC9E75D9C702664348B1F790FCFCB561);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24173,7 +23595,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		return L_1;
 	}
 }
-// Method Definition Index: 35655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* FastTouchscreen_Initialize_ctrlTouchscreentouch9startTime_mDA9500F02F38FCC104E1F98B3FFCE69A96DE327D (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDoubleLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24185,7 +23606,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55120D2E9FF6EF85C2DA04C8154191266998B21D);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24237,7 +23657,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		return L_1;
 	}
 }
-// Method Definition Index: 35656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* FastTouchscreen_Initialize_ctrlTouchscreentouch9startPosition_mB8D5A5941111F4A22E2E8681F64893A2FCD2A6C1 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kVector2Layout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24249,7 +23668,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61817B0D19F1C8D40E50CD975A28C9C910F5EAB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24304,7 +23722,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		return L_1;
 	}
 }
-// Method Definition Index: 35657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9positionx_m59CF1A6CE3AB4FFA1F6AE034F0A7DA0C9163768E (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24316,7 +23733,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52876A89D592EF9125EBF04703E458CFFA3A3A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24368,7 +23784,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9positiony_m329A5D6706B0B0754464507215E33883C1CC4648 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24380,7 +23795,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24432,7 +23846,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9deltaup_m4E9B3B8756118FFB600CFF9DC1583D660D5B6915 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24444,7 +23857,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C7D08B31CC5133AAB97D5F34E7D3D1201267902);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24502,7 +23914,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9deltadown_m1DC2920D5DE9D2EC804983F1ECFDE5239D8C3ACB (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24514,7 +23925,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F7220EC50BF9198208469F09F6FD9B0B76609CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24575,7 +23985,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9deltaleft_m4E6E5DCFF85F4AFE2BA9AB2AD9677764F0C41B1C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24587,7 +23996,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24648,7 +24056,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_4;
 	}
 }
-// Method Definition Index: 35662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9deltaright_m285B2EEE62638608F693D95B32F8250517FB4B9C (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24660,7 +24067,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1E5119D36EC43B340C0A0DDC99F1156546EA9DF);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24718,7 +24124,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_3;
 	}
 }
-// Method Definition Index: 35663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9deltax_mF5391290D6CBC7EA6D56E1F2D99559B67D0B3C28 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24730,7 +24135,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6338DAD2D7A8EB5CDB9009449BFD0F9A230DDD0);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24779,7 +24183,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9deltay_m6B6E16FC84DF9DE19811CAFFF286A9C132AFED63 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24791,7 +24194,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24840,7 +24242,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9radiusx_m2447F765268ED30F63428E17A7A2E7021B845BA8 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24852,7 +24253,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B89FF0877B960AA6EB31034C07AE1F70B8DAB4);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24901,7 +24301,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9radiusy_m64680D1C5E57B588418038D3113E702E2D2602C3 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24913,7 +24312,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -24962,7 +24360,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9startPositionx_m970C4D47FC6A8D35BDC575747247C91FF7E8600B (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24974,7 +24371,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6465EEB8178A0A06AFF8E4F78CE25F3FACCEAF7F);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -25023,7 +24419,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		return L_1;
 	}
 }
-// Method Definition Index: 35668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* FastTouchscreen_Initialize_ctrlTouchscreentouch9startPositiony_m7EB80C1CD2F565CF26C03D1354A15C9BE75BF439 (FastTouchscreen_t283B7BBFB4762C6E85B0582C5547D08D666BFED7* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAxisLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25035,7 +24430,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9623D460B12FA1083C5AA84CB6F2EB662795AB);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
@@ -25087,10 +24481,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 34704
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithName_m9CAF681E7BC82E50A1D8D4756736B62BE2E86888_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
@@ -25108,10 +24500,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		return L_3;
 	}
 }
-// Method Definition Index: 34705
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithDisplayName_mEF9664AEE5D5410C6F5397CDB4A0DA7C16956F38_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, String_t* ___0_displayName, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
@@ -25128,10 +24518,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		return L_4;
 	}
 }
-// Method Definition Index: 34708
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithChildren_mB52CDAE18A90B4B198C055946B55C6FB2C0C6682_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, int32_t ___0_startIndex, int32_t ___1_count, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
@@ -25147,10 +24535,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		return L_4;
 	}
 }
-// Method Definition Index: 34707
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithLayout_m14B43FBB39236278CC11452BBA6B95398362EF4F_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_layout, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
@@ -25165,40 +24551,32 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		return L_2;
 	}
 }
-// Method Definition Index: 38567
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FourCC__ctor_mE761C8779BB6DC85BA1662DC9ECEC39D62ED9A56_inline (FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED* __this, int32_t ___0_code, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		int32_t L_0 = ___0_code;
 		__this->___m_Code = L_0;
 		return;
 	}
 }
-// Method Definition Index: 37702
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_format_mC6AA651913216B6B3CEF1031BC8778182009F73A_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0 = ___0_value;
 		__this->___U3CformatU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 37708
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_sizeInBits_mE7B623711880E0A1C1E563AF809A24A9C63AE115_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		uint32_t L_0 = ___0_value;
 		__this->___U3CsizeInBitsU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 34709
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithStateBlock_mB1B5E1A98A0E205BD74AB0513E86A380A0FE731D_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 ___0_stateBlock, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
@@ -25209,10 +24587,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		return L_2;
 	}
 }
-// Method Definition Index: 34711
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, int32_t ___0_controlIndex, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___1_usage, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___2_control, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
@@ -25235,10 +24611,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		return L_8;
 	}
 }
-// Method Definition Index: 35846
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Touchscreen_set_primaryTouch_m91DBE5AD811347EAF9ADC9B77A6A78360662E1C4_inline (Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* __this, TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = ___0_value;
 		__this->___U3CprimaryTouchU3Ek__BackingField = L_0;
@@ -25246,10 +24620,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Touchscreen_set_primaryTouch
 		return;
 	}
 }
-// Method Definition Index: 35175
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_position_m2D924A583D251F04C6868D10969E1ED6EC4EB7D3_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___0_value;
 		__this->___U3CpositionU3Ek__BackingField = L_0;
@@ -25257,10 +24629,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_position_m2D924A
 		return;
 	}
 }
-// Method Definition Index: 35177
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_delta_mEB61C0A0FDD20CF0DF6792ACF1BE796C8E007570_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = ___0_value;
 		__this->___U3CdeltaU3Ek__BackingField = L_0;
@@ -25268,10 +24638,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_delta_mEB61C0A0F
 		return;
 	}
 }
-// Method Definition Index: 35179
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_radius_m09D5572AFA099FCAA41926908D7A6439749BD2DE_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___0_value;
 		__this->___U3CradiusU3Ek__BackingField = L_0;
@@ -25279,10 +24647,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_radius_m09D5572A
 		return;
 	}
 }
-// Method Definition Index: 35181
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_pressure_m2593E7CCA07D8C8F71A7B76425C67982AEF632E8_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___0_value;
 		__this->___U3CpressureU3Ek__BackingField = L_0;
@@ -25290,10 +24656,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_pressure_m2593E7
 		return;
 	}
 }
-// Method Definition Index: 35183
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_press_mC489CD308019C8ED1CC9C75F2772C6DCD550F4E0_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___0_value;
 		__this->___U3CpressU3Ek__BackingField = L_0;
@@ -25301,10 +24665,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_press_mC489CD308
 		return;
 	}
 }
-// Method Definition Index: 35185
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_displayIndex_m4BCF2ACA4956540F0933FA29C9BF00FB4A145C38_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = ___0_value;
 		__this->___U3CdisplayIndexU3Ek__BackingField = L_0;
@@ -25312,10 +24674,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_displayIndex_m4B
 		return;
 	}
 }
-// Method Definition Index: 38362
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = ___0_value;
 		__this->___U3CpressU3Ek__BackingField = L_0;
@@ -25323,10 +24683,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_press_m267F
 		return;
 	}
 }
-// Method Definition Index: 38364
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_displayIndex_m9751A0334F45336B292B67296CE05BB67D994952_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = ___0_value;
 		__this->___U3CdisplayIndexU3Ek__BackingField = L_0;
@@ -25334,10 +24692,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_displayInde
 		return;
 	}
 }
-// Method Definition Index: 38366
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = ___0_value;
 		__this->___U3CtouchIdU3Ek__BackingField = L_0;
@@ -25345,10 +24701,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_touchId_mAE
 		return;
 	}
 }
-// Method Definition Index: 38368
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___0_value;
 		__this->___U3CpositionU3Ek__BackingField = L_0;
@@ -25356,10 +24710,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_position_m0
 		return;
 	}
 }
-// Method Definition Index: 38370
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = ___0_value;
 		__this->___U3CdeltaU3Ek__BackingField = L_0;
@@ -25367,10 +24719,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_delta_mB7F9
 		return;
 	}
 }
-// Method Definition Index: 38372
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___0_value;
 		__this->___U3CpressureU3Ek__BackingField = L_0;
@@ -25378,10 +24728,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_pressure_mC
 		return;
 	}
 }
-// Method Definition Index: 38374
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___0_value;
 		__this->___U3CradiusU3Ek__BackingField = L_0;
@@ -25389,10 +24737,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_radius_mEBC
 		return;
 	}
 }
-// Method Definition Index: 38376
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = ___0_value;
 		__this->___U3CphaseU3Ek__BackingField = L_0;
@@ -25400,10 +24746,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_phase_m2C1D
 		return;
 	}
 }
-// Method Definition Index: 38378
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___0_value;
 		__this->___U3CindirectTouchU3Ek__BackingField = L_0;
@@ -25411,10 +24755,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_indirectTou
 		return;
 	}
 }
-// Method Definition Index: 38380
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___0_value;
 		__this->___U3CtapU3Ek__BackingField = L_0;
@@ -25422,10 +24764,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_tap_mA78E47
 		return;
 	}
 }
-// Method Definition Index: 38382
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = ___0_value;
 		__this->___U3CtapCountU3Ek__BackingField = L_0;
@@ -25433,10 +24773,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_tapCount_mF
 		return;
 	}
 }
-// Method Definition Index: 38384
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = ___0_value;
 		__this->___U3CstartTimeU3Ek__BackingField = L_0;
@@ -25444,10 +24782,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_startTime_m
 		return;
 	}
 }
-// Method Definition Index: 38386
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___0_value;
 		__this->___U3CstartPositionU3Ek__BackingField = L_0;
@@ -25455,10 +24791,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_startPositi
 		return;
 	}
 }
-// Method Definition Index: 38400
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___0_value;
 		__this->___U3CxU3Ek__BackingField = L_0;
@@ -25466,10 +24800,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Control_set_x_m99BE9E
 		return;
 	}
 }
-// Method Definition Index: 38402
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___0_value;
 		__this->___U3CyU3Ek__BackingField = L_0;
@@ -25477,10 +24809,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Control_set_y_m9023BA
 		return;
 	}
 }
-// Method Definition Index: 38294
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___0_value;
 		__this->___U3CupU3Ek__BackingField = L_0;
@@ -25488,10 +24818,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_up_m738DF0E
 		return;
 	}
 }
-// Method Definition Index: 38296
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___0_value;
 		__this->___U3CdownU3Ek__BackingField = L_0;
@@ -25499,10 +24827,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_down_mD8095
 		return;
 	}
 }
-// Method Definition Index: 38298
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___0_value;
 		__this->___U3CleftU3Ek__BackingField = L_0;
@@ -25510,10 +24836,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_left_m1C0E4
 		return;
 	}
 }
-// Method Definition Index: 38300
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___0_value;
 		__this->___U3CrightU3Ek__BackingField = L_0;
@@ -25521,10 +24845,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_right_m60FB
 		return;
 	}
 }
-// Method Definition Index: 34713
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithStateOffsetToControlIndexMap_m5C180F0BE65CD62017E4662DC59DB56677B5F39A_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___0_map, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
@@ -25536,7 +24858,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		return L_2;
 	}
 }
-// Method Definition Index: 34714
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithControlTree_mF526DB544EB8F876A093A03119ED6AABD0642E2F_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_controlTreeNodes, UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* ___1_controlTreeIndicies, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25546,7 +24867,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsafeUtility_SizeOf_TisControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0_mFF2E3D043C8370BCBB8CDB8DFA1A5A9C59C15571_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint8_t* V_2 = NULL;
@@ -25645,7 +24965,6 @@ IL_005d:
 		return L_26;
 	}
 }
-// Method Definition Index: 34715
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeviceBuilder_Finish_mA2C52B2A38B0618CAA4737DB610C65F385957F65_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25662,7 +24981,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeviceBuilder_Finish_mA2C52B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyArray_1_GetEnumerator_m612F1B35C81D7D8976F6A0815DE9D5DB7AE6C7DC_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	int32_t V_0 = 0;
 	Enumerator_t9E6B6B706EC0D83D954AF58AAD5F12BA71954C0E V_1;
 	memset((&V_1), 0, sizeof(V_1));
@@ -25758,10 +25076,8 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 34684
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_At_mC5ADE238272B7B90A730AB2B6C54CEACD9A4B800_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___0_device, int32_t ___1_index, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0 = ___0_device;
 		NullCheck(L_0);
@@ -25782,10 +25098,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_6;
 	}
 }
-// Method Definition Index: 34685
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithParent_m443238A4D9A120F991A0DD0D3CE792E2CA5D0C80_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___0_parent, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25797,10 +25111,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_2;
 	}
 }
-// Method Definition Index: 34692
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithChildren_m926E7A1B156891F65B5A2856EE2D7BC497507CEC_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, int32_t ___0_startIndex, int32_t ___1_count, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25816,10 +25128,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_4;
 	}
 }
-// Method Definition Index: 34686
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithName_m7506A150252C16D8EA717AD106D03779395C5ADA_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25837,10 +25147,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_3;
 	}
 }
-// Method Definition Index: 34687
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithDisplayName_m325CFB598477C68D7122784B4B93116E9701C290_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, String_t* ___0_displayName, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25857,10 +25165,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_4;
 	}
 }
-// Method Definition Index: 34689
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithLayout_mE69F50DB223B391FD9CB7835460004D9A7AA80AA_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_layout, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25875,10 +25181,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_2;
 	}
 }
-// Method Definition Index: 34698
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_IsSynthetic_m4555CF5C808F396EFC65892D90CC98911037C22F_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, bool ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25889,30 +25193,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_2;
 	}
 }
-// Method Definition Index: 37704
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_byteOffset_mC5776F9F286F0658100E92A75A60EB25A1DDBD40_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		uint32_t L_0 = ___0_value;
 		__this->___m_ByteOffset = L_0;
 		return;
 	}
 }
-// Method Definition Index: 37706
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_bitOffset_mB4F67CC1BF4EBB3152CEC64BECFF724C1416A163_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		uint32_t L_0 = ___0_value;
 		__this->___U3CbitOffsetU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 34693
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 ___0_stateBlock, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25923,10 +25221,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_2;
 	}
 }
-// Method Definition Index: 34701
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25935,10 +25231,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ControlBuilder_Finish_m16789
 		return;
 	}
 }
-// Method Definition Index: 34690
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithUsages_mF3CB62381A394ACAB421BE7378E63A211787B9C1_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, int32_t ___0_startIndex, int32_t ___1_count, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25954,10 +25248,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_4;
 	}
 }
-// Method Definition Index: 34699
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_DontReset_mD81E0A7E983F4B91A863FEBE093F8191B9242144_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, bool ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -25985,10 +25277,8 @@ IL_0020:
 		return L_5;
 	}
 }
-// Method Definition Index: 34694
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithDefaultState_mB348E8E6C5130A30CEE8A885C488065F496038F2_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -26005,10 +25295,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_4;
 	}
 }
-// Method Definition Index: 34700
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_IsButton_mCF3AD67106B0EC5A7FF0CB8CC0BD8F126D5205BF_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, bool ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -26019,10 +25307,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_2;
 	}
 }
-// Method Definition Index: 34695
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___0_min, PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___1_max, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -26038,10 +25324,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_4;
 	}
 }
-// Method Definition Index: 34688
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithShortDisplayName_m9813B2D8441E0A41980C3F203C3A75A0C1301A68_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, String_t* ___0_shortDisplayName, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
@@ -26058,28 +25342,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		return L_4;
 	}
 }
-// Method Definition Index: 34702
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0 = __this->___U3CdeviceU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 34682
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0 = __this->___U3CcontrolU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 39416
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0_mFF2E3D043C8370BCBB8CDB8DFA1A5A9C59C15571_gshared_inline (const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		uint32_t L_0 = sizeof(ControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0);
 		return (int32_t)L_0;

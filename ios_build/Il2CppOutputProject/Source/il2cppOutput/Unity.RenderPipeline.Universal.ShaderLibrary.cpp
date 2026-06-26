@@ -301,7 +301,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 73336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m051EDD34236B7F963D71166E95A33203CB6E30CF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -312,7 +311,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tC4A299808061ECECB1711FDB41D9A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t4CD66A162F5D953B7D54B787725E07B4A495919B_StaticFields____EC8AE0242A5FF8E14F55028AA0BE847A21C213C8B0E6011927DF7EEA5C5213CB_RVAStorage);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -336,10 +334,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tC4A299808061ECECB1711FDB41D9A
 		return L_6;
 	}
 }
-// Method Definition Index: 73337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2A2AAEB96C3B2134C4872DA9BE9A99281D633FAC (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t86517A9AF51944B327188B90FCF98654CD70A5AF* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
