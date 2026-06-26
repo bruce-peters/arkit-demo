@@ -31,60 +31,56 @@ public static class iOSBuilder
         string content = File.ReadAllText(pbxPath);
         bool changed = false;
 
-        if (!content.Contains("SELECT_TOOLCHAIN_SDK_AUTOMATICALLY=\\\"true\\\""))
+        int shellStart = content.IndexOf("shellScript = \"mkdir");
+        if (shellStart >= 0)
         {
-            content = content.Replace(
-                "SELECT_TOOLCHAIN_SDK_AUTOMATICALLY=\\\"false\\\"",
-                "SELECT_TOOLCHAIN_SDK_AUTOMATICALLY=\\\"true\\\"");
-            changed = true;
-        }
-
-        string quarantineCmd = "\\nxattr -rd com.apple.quarantine \\\"$IL2CPP_DIR\\\" 2>/dev/null || true\\nchmod +x \\\"$IL2CPP_DIR\\\"/*.dylib 2>/dev/null || true";
-        if (!content.Contains("xattr -rd com.apple.quarantine"))
-        {
-            content = content.Replace(
-                "\\\"$IL2CPP_DIR/bee_backend/mac-$HOST_ARCH_BEE/bee_backend\\\"\\n\\nARGS=(",
-                "\\\"$IL2CPP_DIR/bee_backend/mac-$HOST_ARCH_BEE/bee_backend\\\"" + quarantineCmd + "\\n\\nARGS=(");
-            changed = true;
-        }
-
-        if (!content.Contains("HOST_ARCH=\\\"x86_64\\\""))
-        {
-            content = content.Replace(
-                "HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$ARCHS\\\"",
-                "HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$HOST_ARCH\\\" = \\\"arm64\\\" ]; then\\n    HOST_ARCH=\\\"x86_64\\\"\\n    HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$ARCHS\\\"");
-            changed = true;
-        }
-
-        if (!content.Contains("dotnet exec --runtimeconfig"))
-        {
-            content = content.Replace(
-                "\\\"$IL2CPP\\\" \\\"${ARGS[@]}\\\"\\nif [ $? -ne 0 ]; then\\n    exit 1\\nfi\\nrm -rf",
-                "dotnet exec --runtimeconfig \\\"$IL2CPP_DIR/il2cpp.runtimeconfig.json\\\" \\\"$IL2CPP_DIR/il2cpp.dll\\\" \\\"${ARGS[@]}\\\" || exit 1\\nif [ $? -ne 0 ]; then\\n    exit 1\\nfi\\nrm -rf");
+            int shellEnd = content.IndexOf("\";", shellStart) + 2;
+            string oldShell = content.Substring(shellStart, shellEnd - shellStart);
+            string newShell = "shellScript = \"cd \\\"$PROJECT_DIR\\\" && mkdir -p \\\"$CONFIGURATION_TEMP_DIR/artifacts/arm64/buildstate\\\" && make\\n\"";
+            content = content.Replace(oldShell, newShell);
             changed = true;
         }
 
         if (changed)
         {
             File.WriteAllText(pbxPath, content);
-            Debug.Log("[iOSBuilder] Patched pbxproj: toolchain auto-detect + quarantine + x86_64 IL2CPP fallback.");
-        }
-        else
-        {
-            Debug.Log("[iOSBuilder] pbxproj already patched.");
         }
 
-        string fixScript = Path.Combine(path, "fix_il2cpp.sh");
-        File.WriteAllText(fixScript,
-            "#!/bin/bash\n" +
-            "DIR=\"$(cd \"$(dirname \"$0\")\" && pwd)\"\n" +
-            "IL2CPP_DIR=\"$DIR/Il2CppOutputProject/IL2CPP/build/deploy_x86_64\"\n" +
-            "echo \"Fixing IL2CPP binaries at $IL2CPP_DIR...\"\n" +
-            "xattr -cr \"$IL2CPP_DIR\" 2>/dev/null\n" +
-            "chmod +x \"$IL2CPP_DIR/il2cpp\" \"$IL2CPP_DIR/il2cpp-compile\" 2>/dev/null\n" +
-            "chmod +x \"$IL2CPP_DIR/\"*.dylib 2>/dev/null\n" +
-            "chmod +x \"$IL2CPP_DIR/bee_backend/mac-x64/bee_backend\" 2>/dev/null\n" +
-            "echo \"Done. Now open Xcode and build.\"\n");
-        Debug.Log("[iOSBuilder] Wrote fix_il2cpp.sh.");
+        string makefile = Path.Combine(path, "Makefile");
+        if (!File.Exists(makefile))
+        {
+            File.WriteAllText(makefile,
+                "# Generated - compiles IL2CPP C++ to libGameAssembly.a using Xcode's clang++\n" +
+                "XCODE_DEVELOPER := $(shell xcode-select -p)\n" +
+                "SDK_PATH := $(shell xcrun --sdk iphoneos --show-sdk-path)\n" +
+                "CLANG := $(XCODE_DEVELOPER)/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++\n" +
+                "\n" +
+                "SRC_DIR := Il2CppOutputProject/Source/il2cppOutput\n" +
+                "OBJ_DIR := Il2CppTempDirArtifacts/Release/objs\n" +
+                "LIB_DIR := Libraries\n" +
+                "IL2CPP_DIR := Il2CppOutputProject/IL2CPP\n" +
+                "\n" +
+                "SOURCES := $(wildcard $(SRC_DIR)/*.cpp)\n" +
+                "OBJECTS := $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SOURCES))\n" +
+                "\n" +
+                "CFLAGS := -arch arm64 -isysroot $(SDK_PATH) -miphoneos-version-min=12.0 -std=c++17 -stdlib=libc++ \\\n" +
+                "  -fno-exceptions -fno-rtti -O2 -DNDEBUG \\\n" +
+                "  -I$(SRC_DIR) -I$(IL2CPP_DIR)/libil2cpp -I$(IL2CPP_DIR)/libil2cpp/codegen \\\n" +
+                "  -I$(IL2CPP_DIR)/libil2cpp/os -I$(IL2CPP_DIR)/libil2cpp/os/Posix -I$(IL2CPP_DIR)/libil2cpp/os/c-api \\\n" +
+                "  -I$(IL2CPP_DIR)/libil2cpp/utils -I$(IL2CPP_DIR)/libil2cpp/vm -I$(IL2CPP_DIR)/libil2cpp/vm-utils \\\n" +
+                "  -I$(IL2CPP_DIR)/libil2cpp/metadata -I$(IL2CPP_DIR)/libil2cpp/gc \\\n" +
+                "  -I$(IL2CPP_DIR)/libil2cpp/mono -I$(IL2CPP_DIR)/libmono -I$(IL2CPP_DIR)/external \\\n" +
+                "  -I$(LIB_DIR) -I$(LIB_DIR)/baselib/Include\n" +
+                "\n" +
+                ".PHONY: all\n" +
+                "all: $(CONFIGURATION_BUILD_DIR)/libGameAssembly.a\n" +
+                "$(OBJ_DIR): ; mkdir -p $(OBJ_DIR)\n" +
+                "$(CONFIGURATION_BUILD_DIR)/libGameAssembly.a: $(OBJ_DIR) $(OBJECTS)\n" +
+                "\tar rcs $@ $(OBJECTS)\n" +
+                "$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp\n" +
+                "\t$(CLANG) $(CFLAGS) -c $< -o $@\n");
+        }
+
+        Debug.Log("[iOSBuilder] Replaced IL2CPP shell script with Xcode-native clang++ compilation (Makefile).");
     }
 }
