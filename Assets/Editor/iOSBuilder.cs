@@ -48,22 +48,28 @@ public static class iOSBuilder
             changed = true;
         }
 
-        if (!content.Contains("HOST_ARCH=\\\"x86_64\\\""))
-        {
-            content = content.Replace(
-                "HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$ARCHS\\\"",
-                "HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$HOST_ARCH\\\" = \\\"arm64\\\" ]; then\\n    HOST_ARCH=\\\"x86_64\\\"\\n    HOST_ARCH_BEE=\\\"x64\\\"\\nfi\\n\\nif [ \\\"$ARCHS\\\"");
-            changed = true;
-        }
-
         if (changed)
         {
             File.WriteAllText(pbxPath, content);
-            Debug.Log("[iOSBuilder] Patched pbxproj: toolchain auto-detect + quarantine removal + x86_64 IL2CPP fallback.");
+            Debug.Log("[iOSBuilder] Patched pbxproj: toolchain auto-detect + quarantine removal.");
         }
         else
         {
             Debug.Log("[iOSBuilder] pbxproj already patched.");
         }
+
+        string fixScript = Path.Combine(path, "fix_il2cpp.sh");
+        File.WriteAllText(fixScript,
+            "#!/bin/bash\n" +
+            "DIR=\"$(cd \"$(dirname \"$0\")\" && pwd)\"\n" +
+            "IL2CPP_DIR=\"$DIR/Il2CppOutputProject/IL2CPP/build/deploy_arm64\"\n" +
+            "echo \"Fixing IL2CPP binaries at $IL2CPP_DIR...\"\n" +
+            "xattr -cr \"$IL2CPP_DIR\" 2>/dev/null\n" +
+            "chmod +x \"$IL2CPP_DIR/il2cpp\" \"$IL2CPP_DIR/il2cpp-compile\" 2>/dev/null\n" +
+            "chmod +x \"$IL2CPP_DIR/\"*.dylib 2>/dev/null\n" +
+            "chmod +x \"$IL2CPP_DIR/bee_backend/mac-arm64/bee_backend\" 2>/dev/null\n" +
+            "echo \"Testing IL2CPP binary...\"\n" +
+            "\"$IL2CPP_DIR/il2cpp\" --help >/dev/null 2>&1 && echo \"OK - IL2CPP works\" || echo \"FAIL - run: softwareupdate --install-rosetta\"\n");
+        Debug.Log("[iOSBuilder] Wrote fix_il2cpp.sh — run this on the Mac before opening Xcode.");
     }
 }
