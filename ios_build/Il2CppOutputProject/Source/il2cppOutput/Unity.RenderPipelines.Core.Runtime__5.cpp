@@ -11913,10 +11913,12 @@ IL2CPP_EXTERN_C  bool TextureIdentifier_Equals_m936AD9B58BA067316958A2CD3E6D60DE
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TextureIdentifier_GetHashCode_m1715625333F5917EDA4414D02B1AE7EA2CC9C267 (TextureIdentifier_tA1CDC255400F534A6496877CC86C07B80C45A199* __this, const RuntimeMethod* method) 
 {
+	uint64_t V_0 = 0;
 	{
-		uint64_t* L_0 = (uint64_t*)(&__this->___value);
+		uint64_t L_0 = __this->___value;
+		V_0 = L_0;
 		int32_t L_1;
-		L_1 = UInt64_GetHashCode_m65D9FD0102B6B01BF38D986F060F0BDBC29B4F92(L_0, NULL);
+		L_1 = UInt64_GetHashCode_m65D9FD0102B6B01BF38D986F060F0BDBC29B4F92((&V_0), NULL);
 		return L_1;
 	}
 }

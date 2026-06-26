@@ -48,7 +48,6 @@
 		415674EFD2EC187355BC05B1 /* LaunchScreen-iPhoneLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E24B93E9D27D99850693BAF /* LaunchScreen-iPhoneLandscape.png */; };
 		4206105962EED44BFA4F9BD3 /* OrientationSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BCDE89198A4FD69E85C6A52 /* OrientationSupport.mm */; };
 		443730AA2B4ED688E8818488 /* OrientationSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0E35CAADD8155085A01C93 /* OrientationSupport.h */; };
-		44C34B92848EAAFC46F3C41B /* ARReferenceImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339A4DC6AC03636B916C0001 /* ARReferenceImages.xcassets */; };
 		465A60CC6D272037004F5B90 /* LifeCycleListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B2C85ECAA415E3EE6D28C2 /* LifeCycleListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		475B26F38A3A652C6174529D /* IUnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 679ACDCF6D14CA6FE6F81479 /* IUnityInterface.h */; };
 		4A4BE9532DDD3BA9A064B13C /* UnityAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F83B23D496299923A2010A3 /* UnityAppController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -138,6 +137,7 @@
 		D20065EB0CEBC7320B036C0F /* UnityView+Keyboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75257F0364FAA7366928C8D9 /* UnityView+Keyboard.mm */; };
 		D2587EF545D3BF7AA78B63A0 /* RegisterFeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = BB36EE442773C18BA750DC92 /* RegisterFeatures.h */; };
 		D278DEC80B1DCB2D5A57519E /* CameraCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 388F104DCF476E1CC9A03DD9 /* CameraCapture.h */; };
+		D40D42539B855386B1B4495A /* ARReferenceImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6147608A5A0325C1648FAA /* ARReferenceImages.xcassets */; };
 		D75945DA0A252832D1F079F7 /* UnityTrampolineCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FE9E686EDE3B8F5FFD6F86 /* UnityTrampolineCompatibility.h */; };
 		D7C2D97F0F5BA8BF5205A09C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
 		DB947739ECFB8391233D9D66 /* KeyboardViews+iOS+Glass.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1C1E251267F9E469070DDC9 /* KeyboardViews+iOS+Glass.mm */; };
@@ -285,6 +285,7 @@
 		1A70A956548CD1BCF69CE362 /* AVCapture.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AVCapture.mm; path = Classes/Unity/AVCapture.mm; sourceTree = SOURCE_ROOT; };
 		1AD7B495D151BE15E389C2E2 /* UnityEngine.HierarchyCoreModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.HierarchyCoreModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.HierarchyCoreModule.cpp; sourceTree = SOURCE_ROOT; };
 		1B0B93DC80B72DB664D4D993 /* Preprocessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Preprocessor.h; path = Classes/Preprocessor.h; sourceTree = SOURCE_ROOT; };
+		1B6147608A5A0325C1648FAA /* ARReferenceImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ARReferenceImages.xcassets; path = "Unity-iPhone/ARReferenceImages.xcassets"; sourceTree = SOURCE_ROOT; };
 		1B83626AA44CF1959ECAF77E /* IUnityPhysicsBackendSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityPhysicsBackendSystem.h; path = Classes/Unity/IUnityPhysicsBackendSystem.h; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Unity-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -343,7 +344,6 @@
 		33021DBF5A5B60EF2C1D15AA /* NoGraphicsHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NoGraphicsHelper.mm; path = Classes/Unity/NoGraphicsHelper.mm; sourceTree = SOURCE_ROOT; };
 		3308B3043A951C59509F2A0A /* Generics__107.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__107.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__107.cpp; sourceTree = SOURCE_ROOT; };
 		338C4897DA1522073BC5D19C /* UnityForwardDecls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityForwardDecls.h; path = Classes/Unity/UnityForwardDecls.h; sourceTree = SOURCE_ROOT; };
-		339A4DC6AC03636B916C0001 /* ARReferenceImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ARReferenceImages.xcassets; path = "Unity-iPhone/ARReferenceImages.xcassets"; sourceTree = SOURCE_ROOT; };
 		33C38F0EAAAD1FAB39DAF810 /* Generics__101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__101.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__101.cpp; sourceTree = SOURCE_ROOT; };
 		344F2C6BDED1BC5D75C5916F /* StoreReview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StoreReview.m; path = Classes/UI/StoreReview.m; sourceTree = SOURCE_ROOT; };
 		34743A492F319FAA45DDBBF8 /* Unity.InputSystem__8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.InputSystem__8.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.InputSystem__8.cpp; sourceTree = SOURCE_ROOT; };
@@ -1014,7 +1014,7 @@
 				5A3A1B4C3FB1FC90023B942E /* LaunchScreen-iPhone.storyboard */,
 				1E24B93E9D27D99850693BAF /* LaunchScreen-iPhoneLandscape.png */,
 				681AA63C19788ACA381FB8C1 /* LaunchScreen-iPhonePortrait.png */,
-				435B441EBE97370855F75A3B /* Unity-iPhone */,
+				812541DAAD96EC89C9DE2EC2 /* Unity-iPhone */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1099,14 +1099,6 @@
 				22F6FC861C8520D4107BC96A /* Runtime */,
 			);
 			path = com.unity.xr.arkit;
-			sourceTree = "<group>";
-		};
-		435B441EBE97370855F75A3B /* Unity-iPhone */ = {
-			isa = PBXGroup;
-			children = (
-				339A4DC6AC03636B916C0001 /* ARReferenceImages.xcassets */,
-			);
-			path = "Unity-iPhone";
 			sourceTree = "<group>";
 		};
 		45C76ABEC14C6E10C9CFC809 /* il2cppOutput */ = {
@@ -1643,6 +1635,14 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
+		812541DAAD96EC89C9DE2EC2 /* Unity-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1B6147608A5A0325C1648FAA /* ARReferenceImages.xcassets */,
+			);
+			path = "Unity-iPhone";
+			sourceTree = "<group>";
+		};
 		85BC250D274BFCFE9C8803E1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -1990,7 +1990,7 @@
 				415674EFD2EC187355BC05B1 /* LaunchScreen-iPhoneLandscape.png in Resources */,
 				763ED5D885EABF761B2FE262 /* LaunchScreen-iPad.storyboard in Resources */,
 				D085C06443DB1B1B5C6637B6 /* LaunchScreen-iPad.png in Resources */,
-				44C34B92848EAAFC46F3C41B /* ARReferenceImages.xcassets in Resources */,
+				D40D42539B855386B1B4495A /* ARReferenceImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

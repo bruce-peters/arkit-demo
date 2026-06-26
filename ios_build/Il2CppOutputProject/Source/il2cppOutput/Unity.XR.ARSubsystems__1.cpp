@@ -9188,10 +9188,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AddReferenceImageJobState_ToString_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFD4706B02823C71252FBF63A74CF03433A8DADF0);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
-		intptr_t* L_0 = (intptr_t*)(&__this->___m_Handle);
+		intptr_t L_0 = __this->___m_Handle;
+		V_0 = L_0;
 		String_t* L_1;
-		L_1 = IntPtr_ToString_mDA1150F4802E1FB9313FB4E32C684EEE19116E5C(L_0, NULL);
+		L_1 = IntPtr_ToString_mDA1150F4802E1FB9313FB4E32C684EEE19116E5C((&V_0), NULL);
 		int32_t L_2;
 		L_2 = AddReferenceImageJobState_get_status_mDF8FE0C1BC9407AD9EAA821DE78B76599455A25F(__this, NULL);
 		int32_t L_3 = L_2;
@@ -9211,10 +9214,13 @@ IL2CPP_EXTERN_C  String_t* AddReferenceImageJobState_ToString_m89383245617B4E89F
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AddReferenceImageJobState_GetHashCode_m6EABAC53399090ADFD2932E561BA0FA12EA63DC0 (AddReferenceImageJobState_tCF90A84092F3D2A7536D1D28C9E6EC0D7F53937A* __this, const RuntimeMethod* method) 
 {
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
-		intptr_t* L_0 = (intptr_t*)(&__this->___m_Handle);
+		intptr_t L_0 = __this->___m_Handle;
+		V_0 = L_0;
 		int32_t L_1;
-		L_1 = IntPtr_GetHashCode_m669B16AD7483C1C396E48F41D9CAC4B719E38F3D(L_0, NULL);
+		L_1 = IntPtr_GetHashCode_m669B16AD7483C1C396E48F41D9CAC4B719E38F3D((&V_0), NULL);
 		MutableRuntimeReferenceImageLibrary_t51AE6E77B281FCE9DF42C7E905A11935708A53F8* L_2 = __this->___m_Library;
 		int32_t L_3;
 		L_3 = HashCodeUtil_ReferenceHash_m2DB64625F0287C798373FE7D45AA20B43AC3EDA5(L_2, NULL);
@@ -15723,27 +15729,30 @@ IL2CPP_EXTERN_C  void XRNearFarPlanes__ctor_mD7F3C864E8BDE0D2B0313ADAAF4A45232A0
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRNearFarPlanes_Equals_mC9F36857896E1AF98C423970F30E012B30C02D2A (XRNearFarPlanes_t9F1B1497CE2B68AC3D3E9053C7EC2A16F4854182* __this, XRNearFarPlanes_t9F1B1497CE2B68AC3D3E9053C7EC2A16F4854182 ___0_other, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
 	{
-		float* L_0 = (float*)(&__this->___m_NearZ);
+		float L_0 = __this->___m_NearZ;
+		V_0 = L_0;
 		XRNearFarPlanes_t9F1B1497CE2B68AC3D3E9053C7EC2A16F4854182 L_1 = ___0_other;
 		float L_2 = L_1.___m_NearZ;
 		bool L_3;
-		L_3 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_0, L_2, NULL);
+		L_3 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9((&V_0), L_2, NULL);
 		if (!L_3)
 		{
-			goto IL_0025;
+			goto IL_002b;
 		}
 	}
 	{
-		float* L_4 = (float*)(&__this->___m_FarZ);
+		float L_4 = __this->___m_FarZ;
+		V_0 = L_4;
 		XRNearFarPlanes_t9F1B1497CE2B68AC3D3E9053C7EC2A16F4854182 L_5 = ___0_other;
 		float L_6 = L_5.___m_FarZ;
 		bool L_7;
-		L_7 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_4, L_6, NULL);
+		L_7 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9((&V_0), L_6, NULL);
 		return L_7;
 	}
 
-IL_0025:
+IL_002b:
 	{
 		return (bool)0;
 	}

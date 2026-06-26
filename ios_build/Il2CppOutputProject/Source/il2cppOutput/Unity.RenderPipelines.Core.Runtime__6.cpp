@@ -10806,23 +10806,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashFNV1A32_Append_mD9BBC6ED73814A581A9A
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashFNV1A32_Append_m53252E10E83506AE1CC248DADB79537B24E1142F (HashFNV1A32_t45CC7EAF49CEA2F15F86F3B425B90483A17039A2* __this, float* ___0_input, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
 	{
 		uint32_t L_0 = __this->___m_Hash;
 		float* L_1 = ___0_input;
-		int32_t L_2;
-		L_2 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2(L_1, NULL);
-		__this->___m_Hash = ((int32_t)il2cpp_codegen_multiply(((int32_t)((int32_t)L_0^L_2)), ((int32_t)16777619)));
+		float L_2 = il2cpp_codegen_ldind<float, float>(L_1);
+		V_0 = L_2;
+		int32_t L_3;
+		L_3 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2((&V_0), NULL);
+		__this->___m_Hash = ((int32_t)il2cpp_codegen_multiply(((int32_t)((int32_t)L_0^L_3)), ((int32_t)16777619)));
 		return;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashFNV1A32_Append_mE6107BF96763CF3B7702B49D4AD9D1046E8FCD82 (HashFNV1A32_t45CC7EAF49CEA2F15F86F3B425B90483A17039A2* __this, double* ___0_input, const RuntimeMethod* method) 
 {
+	double V_0 = 0.0;
 	{
 		uint32_t L_0 = __this->___m_Hash;
 		double* L_1 = ___0_input;
-		int32_t L_2;
-		L_2 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline(L_1, NULL);
-		__this->___m_Hash = ((int32_t)il2cpp_codegen_multiply(((int32_t)((int32_t)L_0^L_2)), ((int32_t)16777619)));
+		double L_2 = il2cpp_codegen_ldind<double, double>(L_1);
+		V_0 = L_2;
+		int32_t L_3;
+		L_3 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_0), NULL);
+		__this->___m_Hash = ((int32_t)il2cpp_codegen_multiply(((int32_t)((int32_t)L_0^L_3)), ((int32_t)16777619)));
 		return;
 	}
 }
